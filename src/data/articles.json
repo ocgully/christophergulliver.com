@@ -1,0 +1,29 @@
+[
+  {
+    "id": "article1",
+    "title": "The Future of Game Development",
+    "date": "2024-03-15",
+    "url": "https://example.com/future-game-development",
+    "previewImage": "/images/articles/game-development.jpg",
+    "pdfPath": "/pdfs/future-game-development.pdf",
+    "summary": "An exploration of emerging technologies and methodologies in game development."
+  },
+  {
+    "id": "article2",
+    "title": "Leadership in Technical Teams",
+    "date": "2024-02-10",
+    "url": "https://example.com/tech-leadership",
+    "previewImage": "/images/articles/tech-leadership.jpg",
+    "pdfPath": "/pdfs/tech-leadership.pdf",
+    "summary": "Insights on effective leadership strategies for technical teams in fast-paced environments."
+  },
+  {
+    "id": "article3",
+    "title": "Entrepreneurship in the Digital Age",
+    "date": "2024-01-05",
+    "url": "https://example.com/digital-entrepreneurship",
+    "previewImage": "/images/articles/entrepreneurship.jpg",
+    "pdfPath": "/pdfs/digital-entrepreneurship.pdf",
+    "summary": "Navigating the challenges and opportunities of entrepreneurship in today's digital landscape."
+  }
+]

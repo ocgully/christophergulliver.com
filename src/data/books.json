@@ -1,0 +1,49 @@
+{
+  "currentlyReading": [
+    {
+      "id": "book1",
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton M. Christensen",
+      "coverImage": "/images/books/innovators-dilemma.jpg",
+      "amazonLink": "https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780/",
+      "description": "A revolutionary business book that has changed corporate America forever."
+    },
+    {
+      "id": "book2",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "coverImage": "/images/books/thinking-fast-slow.jpg",
+      "amazonLink": "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/",
+      "description": "An international bestseller that reveals how we make decisions and how we can use different techniques for better decision-making."
+    }
+  ],
+  "pastReads": [
+    {
+      "id": "book3",
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "coverImage": "/images/books/zero-to-one.jpg",
+      "amazonLink": "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/",
+      "rating": 5,
+      "description": "Notes on startups, or how to build the future."
+    },
+    {
+      "id": "book4",
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "coverImage": "/images/books/lean-startup.jpg",
+      "amazonLink": "https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898/",
+      "rating": 4,
+      "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses."
+    },
+    {
+      "id": "book5",
+      "title": "Creativity, Inc.",
+      "author": "Ed Catmull",
+      "coverImage": "/images/books/creativity-inc.jpg",
+      "amazonLink": "https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012/",
+      "rating": 5,
+      "description": "Overcoming the unseen forces that stand in the way of true inspiration."
+    }
+  ]
+}
