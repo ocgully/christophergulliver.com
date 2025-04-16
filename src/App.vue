@@ -9,6 +9,7 @@
           <router-link to="/">Home</router-link>
           <router-link to="/social">Social</router-link>
           <router-link to="/portfolio">Portfolio</router-link>
+          <router-link to="/impact-log">Impact Log</router-link>
           <router-link to="/project-garden">Project Garden</router-link>
           <router-link to="/timeline">Timeline</router-link>
           <router-link to="/articles">Articles</router-link>

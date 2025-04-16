@@ -14,10 +14,6 @@
         <i class="fab fa-github"></i>
         <span>GitHub</span>
       </a>
-      <a href="https://twitter.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="social-link twitter">
-        <i class="fab fa-twitter"></i>
-        <span>Twitter</span>
-      </a>
     </div>
     
     <div class="social-feed">
@@ -68,28 +64,6 @@
         <a href="#" class="social-link-out">View on GitHub</a>
       </div>
       
-      <!-- Twitter Post -->
-      <div class="social-card twitter">
-        <div class="social-card-header">
-          <div class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </div>
-          <div class="social-meta">
-            <div class="social-platform">Twitter</div>
-            <div class="social-date">April 8, 2025</div>
-          </div>
-        </div>
-        <div class="social-content">
-          <p>Just finished reading "The Art of Game Design" by Jesse Schell. Highly recommend for anyone interested in game development fundamentals. What are your favorite game design books? #GameDesign #BookRecommendations</p>
-        </div>
-        <div class="social-stats">
-          <span><i class="fas fa-heart"></i> 87</span>
-          <span><i class="fas fa-retweet"></i> 24</span>
-          <span><i class="fas fa-reply"></i> 19</span>
-        </div>
-        <a href="#" class="social-link-out">View on Twitter</a>
-      </div>
-      
       <!-- LinkedIn Post -->
       <div class="social-card linkedin">
         <div class="social-card-header">
@@ -134,28 +108,6 @@
           <span><i class="fas fa-code-branch"></i> 43 forks</span>
         </div>
         <a href="#" class="social-link-out">View on GitHub</a>
-      </div>
-      
-      <!-- Twitter Post -->
-      <div class="social-card twitter">
-        <div class="social-card-header">
-          <div class="social-icon">
-            <i class="fab fa-twitter"></i>
-          </div>
-          <div class="social-meta">
-            <div class="social-platform">Twitter</div>
-            <div class="social-date">March 30, 2025</div>
-          </div>
-        </div>
-        <div class="social-content">
-          <p>Hot take: The future of game development isn't just about better graphics, but about creating more meaningful player experiences and emotional connections. What do you think? #GameDev #FutureOfGaming</p>
-        </div>
-        <div class="social-stats">
-          <span><i class="fas fa-heart"></i> 215</span>
-          <span><i class="fas fa-retweet"></i> 87</span>
-          <span><i class="fas fa-reply"></i> 56</span>
-        </div>
-        <a href="#" class="social-link-out">View on Twitter</a>
       </div>
     </div>
   </div>
@@ -218,10 +170,6 @@ export default {
   background-color: #333;
 }
 
-.social-link.twitter {
-  background-color: #1da1f2;
-}
-
 .social-feed {
   column-count: 3;
   column-gap: 2rem;
@@ -243,10 +191,6 @@ export default {
 
 .social-card.github {
   border-top-color: #333;
-}
-
-.social-card.twitter {
-  border-top-color: #1da1f2;
 }
 
 .social-card-header {
@@ -273,10 +217,6 @@ export default {
 
 .social-card.github .social-icon {
   background-color: #333;
-}
-
-.social-card.twitter .social-icon {
-  background-color: #1da1f2;
 }
 
 .social-meta {

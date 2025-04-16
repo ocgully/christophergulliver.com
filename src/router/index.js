@@ -23,6 +23,11 @@ const routes = [
     component: () => import('../views/ProjectDetail.vue')
   },
   {
+    path: '/impact-log',
+    name: 'ImpactLog',
+    component: () => import('../views/ImpactLog.vue')
+  },
+  {
     path: '/project-garden',
     name: 'ProjectGarden',
     component: () => import('../views/ProjectGarden.vue')

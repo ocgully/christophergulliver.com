@@ -4,10 +4,7 @@ export const useDataStore = defineStore('data', {
   state: () => ({
     projects: [],
     articles: [],
-    books: {
-      currentlyReading: [],
-      pastReads: []
-    },
+    books: [],
     gardenProjects: {
       active: [],
       ideas: [],
@@ -43,7 +40,7 @@ export const useDataStore = defineStore('data', {
         
         // Load books data
         const booksModule = await import('../data/books.json');
-        this.books = booksModule.default;
+        this.books = booksModule.default.books;
       } catch (error) {
         console.error('Error loading data:', error);
       }

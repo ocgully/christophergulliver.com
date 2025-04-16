@@ -6,99 +6,355 @@
     />
     
     <div class="timeline-container">
-      <!-- 2023-Present -->
+      <!-- 2023 - Draftkings -->
       <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <div class="timeline-date">2023 - Present</div>
+        <div class="timeline-date">2023</div>
         <div class="timeline-content">
-          <h3>Senior Technical Director</h3>
-          <h4>Independent Consultant</h4>
-          <p>Providing technical leadership and consulting services to game development studios and tech companies. Specializing in architecture design, technical strategy, and team mentorship.</p>
-          <ul class="timeline-highlights">
-            <li>Advised multiple studios on technical architecture and pipeline optimization</li>
-            <li>Mentored engineering teams on best practices and modern development workflows</li>
-            <li>Contributed to open-source game development tools and frameworks</li>
-          </ul>
+          <div class="timeline-header">
+            <h3>Senior Software Engineering Manager</h3>
+            <div class="company-logo">
+              <img src="/images/companies/draftkings.png" alt="Draftkings Logo">
+            </div>
+          </div>
+          <h4>Draftkings - Sportsbook App</h4>
+          <p>Leading engineering teams for the Sportsbook application, focusing on performance optimization, scalability, and user experience improvements.</p>
         </div>
       </div>
       
-      <!-- 2018-2023 -->
+      <!-- 2022 - Slickdeals -->
       <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <div class="timeline-date">2018 - 2023</div>
+        <div class="timeline-date">2022</div>
         <div class="timeline-content">
-          <h3>Technical Director</h3>
-          <h4>Major Game Studio</h4>
-          <p>Led technical direction for multiple AAA game titles across various platforms. Managed a team of senior engineers and collaborated with cross-functional departments.</p>
-          <ul class="timeline-highlights">
-            <li>Directed technical implementation for 3 major game releases</li>
-            <li>Implemented advanced rendering techniques and optimization strategies</li>
-            <li>Established technical standards and best practices across the studio</li>
-          </ul>
+          <div class="timeline-header">
+            <h3>Director of Engineering</h3>
+            <div class="company-logo">
+              <img src="/images/companies/slickdeals.png" alt="Slickdeals Logo">
+            </div>
+          </div>
+          <h4>Slickdeals - Deals & Community Value Streams (Mobile and Web)</h4>
+          <p>Directing engineering efforts across mobile and web platforms, focusing on deals discovery and community engagement features.</p>
         </div>
       </div>
       
-      <!-- 2015-2018 -->
-      <div class="timeline-item">
+      <!-- 2019 - Twins -->
+      <div class="timeline-item personal">
         <div class="timeline-dot"></div>
-        <div class="timeline-date">2015 - 2018</div>
+        <div class="timeline-date">2019</div>
         <div class="timeline-content">
-          <h3>Lead Engineer</h3>
-          <h4>Disney</h4>
-          <p>Led engineering efforts for mobile game development. Managed a team of developers and coordinated with design and art departments to deliver high-quality mobile experiences.</p>
-          <ul class="timeline-highlights">
-            <li>Led development for "Inside Out: Thought Bubbles" and "Where's My Mickey?"</li>
-            <li>Optimized game performance across a wide range of mobile devices</li>
-            <li>Implemented analytics and monetization systems</li>
-          </ul>
+          <div class="timeline-header">
+            <h3>Dad (3x)</h3>
+            <div class="personal-icon">
+              <i class="fas fa-baby"></i>
+            </div>
+          </div>
+          <h4>Twins Born</h4>
+          <p>Welcomed twins to the family, expanding to three children.</p>
         </div>
       </div>
       
-      <!-- 2010-2015 -->
+      <!-- 2019 - Slickdeals Mobile -->
       <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <div class="timeline-date">2010 - 2015</div>
+        <div class="timeline-date">2019</div>
         <div class="timeline-content">
-          <h3>Senior Software Engineer</h3>
+          <div class="timeline-header">
+            <h3>Director of Engineering Mobile</h3>
+            <div class="company-logo">
+              <img src="/images/companies/slickdeals.png" alt="Slickdeals Logo">
+            </div>
+          </div>
+          <h4>Slickdeals</h4>
+          <p>Led the mobile engineering department, overseeing development of iOS and Android applications.</p>
+        </div>
+      </div>
+      
+      <!-- 2018 - Entrepreneur -->
+      <div class="timeline-item entrepreneur">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2018</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Entrepreneur</h3>
+            <div class="entrepreneur-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+          </div>
+          <h4>Lonch, Inc.: Founder</h4>
+          <p>Founded Lonch, Inc., developing innovative solutions for the restaurant industry.</p>
+        </div>
+      </div>
+      
+      <!-- 2016 - First Child -->
+      <div class="timeline-item personal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2016</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Dad (1x)</h3>
+            <div class="personal-icon">
+              <i class="fas fa-baby"></i>
+            </div>
+          </div>
+          <h4>First Child Born</h4>
+          <p>Welcomed first child to the family.</p>
+        </div>
+      </div>
+      
+      <!-- 2015 - Tapslots -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2015</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Director of Engineering</h3>
+            <div class="company-logo">
+              <img src="/images/companies/tapslots.png" alt="Tapslots Logo">
+            </div>
+          </div>
+          <h4>Tapslots</h4>
+          <p>Directed engineering teams for mobile casino games, focusing on performance and monetization strategies.</p>
+        </div>
+      </div>
+      
+      <!-- 2015 - Disney Interactive -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2015</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Lead Architect</h3>
+            <div class="company-logo">
+              <img src="/images/companies/disney.png" alt="Disney Logo">
+            </div>
+          </div>
+          <h4>Disney Interactive - Inside Out</h4>
+          <p>Led architecture design and implementation for the Inside Out mobile game, coordinating with Pixar for brand alignment.</p>
+        </div>
+      </div>
+      
+      <!-- 2014 - Married -->
+      <div class="timeline-item personal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2014</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Married</h3>
+            <div class="personal-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <h4>Wedding Day</h4>
+          <p>Got married to my wonderful partner.</p>
+        </div>
+      </div>
+      
+      <!-- 2014 - Disney Interactive -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2014</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Senior Software Engineer</h3>
+            <div class="company-logo">
+              <img src="/images/companies/disney.png" alt="Disney Logo">
+            </div>
+          </div>
+          <h4>Disney Interactive - Disney Mobile - Launch Pad</h4>
+          <p>Developed mobile games and applications as part of Disney's Launch Pad initiative.</p>
+        </div>
+      </div>
+      
+      <!-- 2012 - Disney Interactive -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2012</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Release Engineer & Gameplay Engineer</h3>
+            <div class="company-logo">
+              <img src="/images/companies/disney.png" alt="Disney Logo">
+            </div>
+          </div>
+          <h4>Disney Interactive - Disney Mobile</h4>
+          <p>Managed release processes and developed gameplay features for Disney mobile games.</p>
+        </div>
+      </div>
+      
+      <!-- 2010 - id Software -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2010</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Tools Engineer</h3>
+            <div class="company-logo">
+              <img src="/images/companies/id-software.png" alt="id Software Logo">
+            </div>
+          </div>
+          <h4>id Software</h4>
+          <p>Developed internal tools and systems to support game development workflows.</p>
+        </div>
+      </div>
+      
+      <!-- 2009 - n-Space -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2009</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Software Engineer</h3>
+            <div class="company-logo">
+              <img src="/images/companies/n-space.png" alt="n-Space Logo">
+            </div>
+          </div>
           <h4>n-Space</h4>
-          <p>Developed games for Nintendo platforms, focusing on technical implementation and optimization for handheld devices.</p>
-          <ul class="timeline-highlights">
-            <li>Worked on Nintendo DS versions of "GoldenEye 007" and "James Bond 007: Blood Stone"</li>
-            <li>Implemented core gameplay systems and platform-specific features</li>
-            <li>Collaborated with Nintendo technical support teams</li>
-          </ul>
+          <p>Developed games for Nintendo platforms, focusing on gameplay systems and optimization.</p>
         </div>
       </div>
       
-      <!-- 2007-2010 -->
+      <!-- 2008 - Midway Games -->
       <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <div class="timeline-date">2007 - 2010</div>
+        <div class="timeline-date">2008</div>
         <div class="timeline-content">
-          <h3>Software Engineer</h3>
-          <h4>Midway Games</h4>
-          <p>Developed gameplay systems and technical features for console games. Worked on "Wheelman" and early development of "Stranglehold 2".</p>
-          <ul class="timeline-highlights">
-            <li>Implemented vehicle physics and damage systems for "Wheelman"</li>
-            <li>Contributed to rendering pipeline and effects systems</li>
-            <li>Participated in technical design and architecture planning</li>
-          </ul>
+          <div class="timeline-header">
+            <h3>Intern</h3>
+            <div class="company-logo">
+              <img src="/images/companies/midway.png" alt="Midway Games Logo">
+            </div>
+          </div>
+          <h4>Midway Games - Advanced Technology Group</h4>
+          <p>Worked on advanced technology initiatives, contributing to game engine development.</p>
         </div>
       </div>
       
-      <!-- 2005-2007 -->
+      <!-- 2008 - Masters Degree -->
+      <div class="timeline-item education">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2008</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Masters in Interactive Entertainment</h3>
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+          </div>
+          <h4>University of Central Florida (Florida Interactive Entertainment Academy)</h4>
+          <p>Completed Masters degree in Interactive Entertainment, specializing in game development.</p>
+        </div>
+      </div>
+      
+      <!-- 2006 - Computer Science Degree -->
+      <div class="timeline-item education">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2006</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Computer Science Degree</h3>
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+          </div>
+          <h4>University of Central Florida</h4>
+          <p>Earned Bachelor's degree in Computer Science.</p>
+        </div>
+      </div>
+      
+      <!-- 2004 - Entrepreneur -->
+      <div class="timeline-item entrepreneur">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2004</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Entrepreneur</h3>
+            <div class="entrepreneur-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+          </div>
+          <h4>Nobis Technologies: Co-Founder, VP</h4>
+          <p>Co-founded Nobis Technologies, serving as Vice President.</p>
+        </div>
+      </div>
+      
+      <!-- 2002 - AS Degree -->
+      <div class="timeline-item education">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2002</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>AS Degree</h3>
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+          </div>
+          <h4>Daytona Beach State College</h4>
+          <p>Earned Associate of Science degree.</p>
+        </div>
+      </div>
+      
+      <!-- 2000 - High School -->
+      <div class="timeline-item education">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2000</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>High School Graduate (Early)</h3>
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+          </div>
+          <h4>"Class of 2001"</h4>
+          <p>Graduated high school early.</p>
+        </div>
+      </div>
+      
+      <!-- 2000 - Entrepreneur -->
+      <div class="timeline-item entrepreneur">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2000</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Entrepreneur</h3>
+            <div class="entrepreneur-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+          </div>
+          <h4>Nobis Productions: Founder</h4>
+          <p>Founded Nobis Productions.</p>
+        </div>
+      </div>
+      
+      <!-- 1998 - GeoTech -->
       <div class="timeline-item">
         <div class="timeline-dot"></div>
-        <div class="timeline-date">2005 - 2007</div>
+        <div class="timeline-date">1998</div>
         <div class="timeline-content">
-          <h3>Junior Developer</h3>
-          <h4>Indie Game Studio</h4>
-          <p>Started career in game development working on indie projects and learning foundational skills in programming and game design.</p>
-          <ul class="timeline-highlights">
-            <li>Developed small-scale games and tech demos</li>
-            <li>Learned industry-standard tools and practices</li>
-            <li>Contributed to all aspects of game development in a small team environment</li>
-          </ul>
+          <div class="timeline-header">
+            <h3>First Job</h3>
+            <div class="company-logo">
+              <img src="/images/companies/geotech.png" alt="GeoTech Logo">
+            </div>
+          </div>
+          <h4>GeoTech</h4>
+          <p>Started first job at GeoTech.</p>
+        </div>
+      </div>
+      
+      <!-- 1983 - Born -->
+      <div class="timeline-item personal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">1983</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Born</h3>
+            <div class="personal-icon">
+              <i class="fas fa-birthday-cake"></i>
+            </div>
+          </div>
+          <h4>Hello World</h4>
+          <p>Entered the world.</p>
         </div>
       </div>
     </div>
@@ -114,7 +370,7 @@ export default {
     PageHeader
   },
   mounted() {
-    document.title = 'Career Timeline | Christopher Gulliver';
+    document.title = 'Life Timeline | Christopher Gulliver';
   }
 }
 </script>
@@ -124,12 +380,6 @@ export default {
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 1rem;
-}
-
-.section-description {
-  color: var(--text-secondary);
-  margin-bottom: 3rem;
-  max-width: 800px;
 }
 
 .timeline-container {
@@ -191,11 +441,17 @@ export default {
   transform: translateY(-5px);
 }
 
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
 .timeline-content h3 {
-  margin-top: 0;
-  margin-bottom: 0.25rem;
+  margin: 0;
   color: var(--text-primary);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .timeline-content h4 {
@@ -209,17 +465,62 @@ export default {
 .timeline-content p {
   color: var(--text-secondary);
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
-.timeline-highlights {
-  padding-left: 1.5rem;
+.company-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.timeline-highlights li {
-  color: var(--text-secondary);
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
+.company-logo img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.personal-icon,
+.education-icon,
+.entrepreneur-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.personal-icon {
+  background-color: #e74c3c;
+}
+
+.education-icon {
+  background-color: #3498db;
+}
+
+.entrepreneur-icon {
+  background-color: #f39c12;
+}
+
+.timeline-item.personal .timeline-content {
+  border-left: 4px solid #e74c3c;
+}
+
+.timeline-item.education .timeline-content {
+  border-left: 4px solid #3498db;
+}
+
+.timeline-item.entrepreneur .timeline-content {
+  border-left: 4px solid #f39c12;
 }
 
 @media (max-width: 768px) {

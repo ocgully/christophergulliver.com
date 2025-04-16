@@ -2,70 +2,71 @@
   <div class="reading">
     <page-header 
       title="Reading List" 
-      subtitle="Books that have shaped my thinking and approach to technology, leadership, and innovation."
+      subtitle="Books I've read, enjoyed, and recommend."
     />
     
-    <!-- Currently Reading Section -->
-    <section class="book-section">
-      <h2 class="section-title">Currently Reading</h2>
-      <div class="books-grid">
-        <div v-for="book in books.currentlyReading" :key="book.id" class="book-card">
-          <div class="book-cover">
-            <img :src="book.coverImage" :alt="book.title">
-          </div>
-          <div class="book-content">
-            <h3 class="book-title">{{ book.title }}</h3>
-            <p class="book-author">by {{ book.author }}</p>
-            <p class="book-description">{{ book.description }}</p>
-            <a :href="book.amazonLink" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-              View on Amazon
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="genre-filters">
+      <button 
+        v-for="genre in genres" 
+        :key="genre"
+        :class="['genre-filter', { active: activeGenre === genre }]"
+        @click="setGenre(genre)"
+      >
+        {{ genre }}
+      </button>
+    </div>
     
-    <!-- Past Reads Section -->
-    <section class="book-section">
-      <h2 class="section-title">Past Reads</h2>
-      <div class="books-grid">
-        <div v-for="book in books.pastReads" :key="book.id" class="book-card">
-          <div class="book-cover">
-            <img :src="book.coverImage" :alt="book.title">
-            <div v-if="book.rating" class="book-rating">
-              <span v-for="i in 5" :key="i" class="star" :class="{ 'filled': i <= book.rating }">★</span>
+    <div class="series-filter-container">
+      <label for="series-filter">Filter by Series:</label>
+      <select 
+        id="series-filter" 
+        v-model="activeSeries" 
+        class="series-filter"
+        @change="setSeries"
+      >
+        <option value="All">All Series</option>
+        <option v-for="series in seriesList" :key="series" :value="series">
+          {{ series }}
+        </option>
+      </select>
+    </div>
+    
+    <div class="books-grid">
+      <div v-for="book in filteredBooks" :key="book.id" class="book-card">
+        <div class="book-cover">
+          <img :src="book.coverImage" :alt="book.title">
+        </div>
+        <div class="book-content">
+          <h3 class="book-title">{{ book.title }}</h3>
+          <p class="book-author">{{ book.author }}</p>
+          <div v-if="book.series" class="book-series">
+            <span class="series-tag">
+              <i class="fas fa-bookmark"></i> {{ book.series }}
+            </span>
+          </div>
+          <div class="book-genres">
+            <span v-for="(genre, index) in book.genres" :key="index" class="genre-tag">
+              {{ genre }}
+            </span>
+          </div>
+          <p class="book-description">{{ book.description }}</p>
+          <div class="book-rating">
+            <div class="stars">
+              <i v-for="n in 5" :key="n" class="fas fa-star" :class="{ 'filled': n <= book.rating }"></i>
             </div>
           </div>
-          <div class="book-content">
-            <h3 class="book-title">{{ book.title }}</h3>
-            <p class="book-author">by {{ book.author }}</p>
-            <p class="book-description">{{ book.description }}</p>
-            <a :href="book.amazonLink" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-              View on Amazon
-            </a>
-          </div>
+          <a :href="book.amazonLink" target="_blank" rel="noopener noreferrer" class="btn btn-primary amazon-link">
+            <i class="fab fa-amazon"></i> View on Amazon
+          </a>
         </div>
       </div>
-    </section>
-    
-    <!-- Reading Recommendations -->
-    <section class="book-section">
-      <h2 class="section-title">Recommendations</h2>
-      <p class="section-description">Have a book recommendation for me? I'm always looking to expand my reading list.</p>
-      <div class="recommendation-card">
-        <h3>Suggest a Book</h3>
-        <p>If you've read something insightful about technology, leadership, game development, or innovation that you think I might enjoy, please share it with me.</p>
-        <a href="mailto:recommendations@christophergulliver.com?subject=Book%20Recommendation" class="btn btn-primary">
-          Email a Recommendation
-        </a>
-      </div>
-    </section>
+    </div>
   </div>
 </template>
 
 <script>
-import { useDataStore } from '../stores';
 import PageHeader from '../components/PageHeader.vue';
+import { useDataStore } from '../stores';
 
 export default {
   name: 'ReadingPage',
@@ -74,16 +75,62 @@ export default {
   },
   data() {
     return {
-      books: {
-        currentlyReading: [],
-        pastReads: []
+      activeGenre: 'All',
+      activeSeries: 'All',
+      genres: ['All', 'Fantasy', 'Science Fiction', 'Classic', 'Business', 'Entertainment', 'Leadership', 'Technology', 'Self-Help'],
+      seriesList: [],
+      books: []
+    }
+  },
+  computed: {
+    filteredBooks() {
+      let filtered = this.books;
+      
+      // Filter by genre if not "All"
+      if (this.activeGenre !== 'All') {
+        filtered = filtered.filter(book => book.genres && book.genres.includes(this.activeGenre));
       }
+      
+      // Filter by series if not "All"
+      if (this.activeSeries !== 'All') {
+        filtered = filtered.filter(book => book.series === this.activeSeries);
+      }
+      
+      return filtered;
+    }
+  },
+  methods: {
+    setGenre(genre) {
+      this.activeGenre = genre;
+    },
+    setSeries() {
+      // Method is called by the select's @change event
+      // No need for implementation as v-model handles the value change
     }
   },
   async created() {
     const store = useDataStore();
     await store.fetchData();
     this.books = store.books;
+    
+    // Extract all unique genres for the filter
+    const allGenres = new Set(['All']);
+    this.books.forEach(book => {
+      if (book.genres) {
+        book.genres.forEach(genre => allGenres.add(genre));
+      }
+    });
+    this.genres = Array.from(allGenres);
+    
+    // Extract all unique series for the filter
+    const allSeries = new Set();
+    this.books.forEach(book => {
+      if (book.series && book.series.trim() !== '') {
+        allSeries.add(book.series);
+      }
+    });
+    this.seriesList = Array.from(allSeries).sort();
+    
     document.title = 'Reading List | Christopher Gulliver';
   }
 }
@@ -96,20 +143,31 @@ export default {
   padding: 2rem 1rem;
 }
 
-.section-description {
-  color: var(--text-secondary);
+.genre-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-bottom: 2rem;
-  max-width: 800px;
 }
 
-.book-section {
-  margin-bottom: 4rem;
+.genre-filter {
+  background-color: var(--dark-surface);
+  color: var(--text-secondary);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.book-section h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
-  color: var(--primary-light);
+.genre-filter:hover {
+  background-color: var(--primary-light);
+  color: white;
+}
+
+.genre-filter.active {
+  background-color: var(--primary);
+  color: white;
 }
 
 .books-grid {
@@ -133,6 +191,28 @@ export default {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.series-filter-container {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.series-filter {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background-color: var(--dark-surface);
+  color: var(--text-primary);
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.series-filter:focus {
+  outline: none;
+  border-color: var(--primary-light);
+}
+
 .book-cover {
   width: 180px;
   position: relative;
@@ -145,72 +225,86 @@ export default {
   object-fit: cover;
 }
 
-.book-rating {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 0.5rem;
-  text-align: center;
-}
-
-.star {
-  color: #aaa;
-  margin: 0 1px;
-}
-
-.star.filled {
-  color: #ffc107;
-}
-
 .book-content {
-  flex: 1;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
 
 .book-title {
-  font-size: 1.25rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-size: 1.25rem;
   color: var(--text-primary);
 }
 
 .book-author {
-  font-size: 0.875rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
   color: var(--primary-light);
+  font-style: italic;
+}
+
+.book-series {
+  margin-bottom: 0.75rem;
+}
+
+.series-tag {
+  background-color: var(--primary-dark);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.book-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.genre-tag {
+  background-color: var(--primary-dark);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
 }
 
 .book-description {
   color: var(--text-secondary);
-  margin-bottom: 1.5rem;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin-bottom: 1rem;
   flex-grow: 1;
 }
 
-.recommendation-card {
-  background-color: var(--dark-surface);
-  border-radius: 12px;
-  padding: 2rem;
-  text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
-  box-shadow: var(--card-shadow);
-}
-
-.recommendation-card h3 {
-  margin-top: 0;
-  color: var(--text-primary);
+.book-rating {
   margin-bottom: 1rem;
 }
 
-.recommendation-card p {
-  color: var(--text-secondary);
-  margin-bottom: 1.5rem;
-  line-height: 1.5;
+.stars {
+  display: flex;
+  gap: 0.25rem;
+  color: #aaa;
+}
+
+.stars .filled {
+  color: #f1c40f;
+}
+
+.amazon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.amazon-link i {
+  font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {

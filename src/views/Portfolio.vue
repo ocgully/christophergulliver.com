@@ -21,14 +21,6 @@
         </div>
       </div>
     </div>
-
-    <section class="section" id="impact-log">
-      <h2 class="section-title">Impact Log</h2>
-      <p class="section-description">A record of successes, metrics, and impact from various projects.</p>
-      <div class="placeholder-content">
-        <p>This section will be updated with detailed impact metrics and success stories.</p>
-      </div>
-    </section>
   </div>
 </template>
 
