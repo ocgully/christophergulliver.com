@@ -10,7 +10,7 @@
         <img :src="project.image" :alt="project.title" class="card-image">
         <div class="card-content">
           <h3 class="card-title">{{ project.title }}</h3>
-          <p class="card-subtitle">{{ project.company }} | {{ project.releaseYear }}</p>
+          <p class="card-subtitle">{{ project.company }} | {{ project.timeframe }}</p>
           <p class="card-description">{{ project.description }}</p>
           <div class="card-platforms">
             <span v-for="(platform, index) in project.platforms" :key="index" class="platform-tag">

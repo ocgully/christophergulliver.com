@@ -13,8 +13,8 @@
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Senior Software Engineering Manager</h3>
-            <div class="company-logo">
-              <img src="/images/companies/draftkings.png" alt="Draftkings Logo">
+            <div class="company-logo draftkings-logo">
+              <img src="/images/companies/draftkings.jpeg" alt="Draftkings Logo">
             </div>
           </div>
           <h4>Draftkings - Sportsbook App</h4>
@@ -28,8 +28,8 @@
         <div class="timeline-date">2022</div>
         <div class="timeline-content">
           <div class="timeline-header">
-            <h3>Director of Engineering</h3>
-            <div class="company-logo">
+            <h3>Director of Engineering / Head of Engineering</h3>
+            <div class="company-logo slickdeals-logo">
               <img src="/images/companies/slickdeals.png" alt="Slickdeals Logo">
             </div>
           </div>
@@ -61,7 +61,7 @@
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Director of Engineering Mobile</h3>
-            <div class="company-logo">
+            <div class="company-logo slickdeals-logo">
               <img src="/images/companies/slickdeals.png" alt="Slickdeals Logo">
             </div>
           </div>
@@ -109,7 +109,7 @@
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Director of Engineering</h3>
-            <div class="company-logo">
+            <div class="company-logo tapslots-logo">
               <img src="/images/companies/tapslots.png" alt="Tapslots Logo">
             </div>
           </div>
@@ -125,8 +125,8 @@
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Lead Architect</h3>
-            <div class="company-logo">
-              <img src="/images/companies/disney.png" alt="Disney Logo">
+            <div class="company-logo disney-logo">
+              <img src="/images/companies/disney.jpeg" alt="Disney Logo">
             </div>
           </div>
           <h4>Disney Interactive - Inside Out</h4>
@@ -157,8 +157,8 @@
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Senior Software Engineer</h3>
-            <div class="company-logo">
-              <img src="/images/companies/disney.png" alt="Disney Logo">
+            <div class="company-logo disney-logo">
+              <img src="/images/companies/disney.jpeg" alt="Disney Logo">
             </div>
           </div>
           <h4>Disney Interactive - Disney Mobile - Launch Pad</h4>
@@ -173,12 +173,28 @@
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Release Engineer & Gameplay Engineer</h3>
-            <div class="company-logo">
-              <img src="/images/companies/disney.png" alt="Disney Logo">
+            <div class="company-logo disney-logo">
+              <img src="/images/companies/disney.jpeg" alt="Disney Logo">
             </div>
           </div>
           <h4>Disney Interactive - Disney Mobile</h4>
           <p>Managed release processes and developed gameplay features for Disney mobile games.</p>
+        </div>
+      </div>
+      
+      <!-- 2012 - Endless Train, LLC -->
+      <div class="timeline-item entrepreneur">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2012-2019</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Entrepreneur</h3>
+            <div class="entrepreneur-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+          </div>
+          <h4>Endless Train, LLC: Founder</h4>
+          <p>Founded and operated Endless Train, LLC.</p>
         </div>
       </div>
       
@@ -205,8 +221,8 @@
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Software Engineer</h3>
-            <div class="company-logo">
-              <img src="/images/companies/n-space.png" alt="n-Space Logo">
+            <div class="company-logo n-space-logo">
+              <img src="/images/companies/n-space.jpg" alt="n-Space Logo">
             </div>
           </div>
           <h4>n-Space</h4>
@@ -222,7 +238,7 @@
           <div class="timeline-header">
             <h3>Intern</h3>
             <div class="company-logo">
-              <img src="/images/companies/midway.png" alt="Midway Games Logo">
+              <img src="/images/companies/midway.webp" alt="Midway Games Logo">
             </div>
           </div>
           <h4>Midway Games - Advanced Technology Group</h4>
@@ -294,26 +310,42 @@
         </div>
       </div>
       
-      <!-- 2000 - High School -->
-      <div class="timeline-item education">
+      <!-- 2001 - Victoria's Secret -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-date">2001</div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Employee</h3>
+            <div class="company-logo victorias-secret-logo">
+              <img src="/images/companies/victorias-secret.png" alt="Victoria's Secret Logo">
+            </div>
+          </div>
+          <h4>Victoria's Secret</h4>
+          <p>Worked as a "Stock Boy" at Victoria's Secret.</p>
+        </div>
+      </div>
+      
+      <!-- 2000 - Volusia County Life Guard -->
+      <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-date">2000</div>
         <div class="timeline-content">
           <div class="timeline-header">
-            <h3>High School Graduate (Early)</h3>
-            <div class="education-icon">
-              <i class="fas fa-graduation-cap"></i>
+            <h3>Life Guard</h3>
+            <div class="company-logo volusia-county-logo">
+              <img src="/images/companies/volusia-county-lifeguard.png" alt="Volusia County Life Guard Logo">
             </div>
           </div>
-          <h4>"Class of 2001"</h4>
-          <p>Graduated high school early.</p>
+          <h4>Volusia County Life Guard</h4>
+          <p>Served as a Life Guard for Volusia County during the summer in Daytona Beach, and Daytona Beach Shores.</p>
         </div>
       </div>
       
-      <!-- 2000 - Entrepreneur -->
+      <!-- 2000 - Nobis Productions -->
       <div class="timeline-item entrepreneur">
         <div class="timeline-dot"></div>
-        <div class="timeline-date">2000</div>
+        <div class="timeline-date">1998</div>
         <div class="timeline-content">
           <div class="timeline-header">
             <h3>Entrepreneur</h3>
@@ -322,25 +354,10 @@
             </div>
           </div>
           <h4>Nobis Productions: Founder</h4>
-          <p>Founded Nobis Productions.</p>
+          <p>Founded Nobis Productions. 1998-2005</p>
         </div>
       </div>
-      
-      <!-- 1998 - GeoTech -->
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">1998</div>
-        <div class="timeline-content">
-          <div class="timeline-header">
-            <h3>First Job</h3>
-            <div class="company-logo">
-              <img src="/images/companies/geotech.png" alt="GeoTech Logo">
-            </div>
-          </div>
-          <h4>GeoTech</h4>
-          <p>Started first job at GeoTech.</p>
-        </div>
-      </div>
+         
       
       <!-- 1983 - Born -->
       <div class="timeline-item personal">
@@ -478,6 +495,34 @@ export default {
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slickdeals-logo {
+  background-color: #0072bc;
+}
+
+.draftkings-logo {
+  background-color: #000000;
+}
+
+.disney-logo {
+  background-color: #0A193C;
+}
+
+.tapslots-logo {
+  background-color: #000000;
+}
+
+.n-space-logo {
+  background-color: #000000;
+}
+
+.victorias-secret-logo {
+  background-color: #ecb1c9;
+}
+
+.volusia-county-logo {
+  background-color: #ffffff;
 }
 
 .company-logo img {

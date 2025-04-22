@@ -32,6 +32,18 @@ create_placeholder() {
 # create_placeholder "/images/projects/dodopop.jpg" "Dodopop" "#d35400"
 # create_placeholder "/images/projects/checkout-challenge.jpg" "Checkout Challenge" "#16a085"
 
+# New projects
+create_placeholder "/images/projects/etoll-clip.jpg" "eToll Clip" "#3498db"
+create_placeholder "/images/projects/oscommerce-verisign.jpg" "OsCommerce Verisign Plugin" "#e74c3c"
+create_placeholder "/images/projects/nobis-command-center.jpg" "Nobis Command Center" "#9b59b6"
+
+# Disney games
+create_placeholder "/images/projects/stack-rabbit.jpg" "Stack Rabbit" "#27ae60"
+create_placeholder "/images/projects/lost-light.jpg" "Lost Light" "#f39c12"
+create_placeholder "/images/projects/dont-break-the-bank.jpg" "Don't Break the Bank" "#8e44ad"
+create_placeholder "/images/projects/nemos-aqua-pop.jpg" "Nemo's Aqua Pop" "#2980b9"
+create_placeholder "/images/projects/launchpad-framework.jpg" "Launch Pad Framework" "#c0392b"
+
 # Garden project images
 # create_placeholder "/images/garden/ai-game-design.jpg" "AI Game Design" "#8e44ad"
 # create_placeholder "/images/garden/vr-education.jpg" "VR Education" "#2980b9"

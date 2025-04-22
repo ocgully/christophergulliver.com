@@ -1,8 +1,8 @@
 <template>
   <div v-if="project" class="project-detail">
     <div class="project-header">
-      <router-link to="/portfolio" class="back-link">
-        &larr; Back to Portfolio
+      <router-link :to="backLink" class="back-link">
+        &larr; {{ backLinkText }}
       </router-link>
       <h1 class="project-title">{{ project.title }}</h1>
       <div class="project-meta">
@@ -11,8 +11,8 @@
           <span class="meta-value">{{ project.company }}</span>
         </div>
         <div class="meta-item">
-          <span class="meta-label">Release Year:</span>
-          <span class="meta-value">{{ project.releaseYear }}</span>
+          <span class="meta-label">Year:</span>
+          <span class="meta-value">{{ project.timeframe }}</span>
         </div>
         <div class="meta-item">
           <span class="meta-label">Platforms:</span>
@@ -38,7 +38,11 @@
     </div>
 
     <div class="project-content">
-      <div class="project-image-container">
+      <!-- Use ImageCarousel if gallery exists, otherwise show single image -->
+      <div v-if="hasGallery" class="project-gallery-container">
+        <image-carousel :images="projectImages"></image-carousel>
+      </div>
+      <div v-else class="project-image-container">
         <img :src="project.image" :alt="project.title" class="project-image">
       </div>
       
@@ -52,6 +56,33 @@
           <h2 class="section-title">My Contributions</h2>
           <p>{{ project.contributions }}</p>
         </section>
+
+        <section v-if="project.details && project.details.features" class="project-section">
+          <h2 class="section-title">Key Features</h2>
+          <ul class="feature-list">
+            <li v-for="(feature, index) in project.details.features" :key="index">{{ feature }}</li>
+          </ul>
+        </section>
+
+        <section v-if="project.details && project.details.technologies" class="project-section">
+          <h2 class="section-title">Technologies</h2>
+          <div class="tech-tags">
+            <span v-for="(tech, index) in project.details.technologies" :key="index" class="tech-tag">{{ tech }}</span>
+          </div>
+        </section>
+
+        <section v-if="project.details && project.details.alternateNames" class="project-section">
+          <h2 class="section-title">Also Known As</h2>
+          <p>{{ project.details.alternateNames.join(', ') }}</p>
+        </section>
+
+        <section v-if="project.reason" class="project-section">
+          <h2 class="section-title">Project Status</h2>
+          <div class="status-box graveyard">
+            <h3>Project Discontinued</h3>
+            <p>{{ project.reason }}</p>
+          </div>
+        </section>
       </div>
     </div>
   </div>
@@ -62,12 +93,36 @@
 
 <script>
 import { useDataStore } from '../stores';
+import ImageCarousel from '../components/ImageCarousel.vue';
 
 export default {
   name: 'ProjectDetailPage',
+  components: {
+    ImageCarousel
+  },
   data() {
     return {
       project: null
+    }
+  },
+  computed: {
+    hasGallery() {
+      return this.project && this.project.gallery && this.project.gallery.length > 0;
+    },
+    projectImages() {
+      if (this.hasGallery) {
+        return this.project.gallery;
+      } else if (this.project && this.project.image) {
+        // If no gallery but has a single image, create a gallery with one item
+        return [{ image: this.project.image, caption: this.project.title }];
+      }
+      return [];
+    },
+    backLink() {
+      return this.$route.query.from === 'garden' ? '/garden' : '/portfolio';
+    },
+    backLinkText() {
+      return this.$route.query.from === 'garden' ? 'Back to Project Garden' : 'Back to Portfolio';
     }
   },
   async created() {
@@ -177,6 +232,58 @@ export default {
 .project-section p {
   color: var(--text-secondary);
   line-height: 1.6;
+}
+
+.project-gallery-container {
+  margin-bottom: 2rem;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list li {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  background-color: var(--primary-light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+}
+
+.status-box {
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.status-box h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.status-box p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.status-box.graveyard {
+  background-color: rgba(220, 53, 69, 0.1);
+  border-left: 4px solid #dc3545;
 }
 
 .loading {

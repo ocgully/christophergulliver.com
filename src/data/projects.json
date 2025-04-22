@@ -3,7 +3,7 @@
     "id": "wheelman",
     "title": "Wheelman",
     "company": "Midway Games",
-    "releaseYear": 2009,
+    "timeframe": 2009,
     "platforms": ["PlayStation 3", "Xbox 360", "PC"],
     "description": "An action-driving game set in an open world environment of Barcelona, starring Vin Diesel as an expert driver for hire.",
     "contributions": "Led technical development aspects and implemented core gameplay systems.",
@@ -11,13 +11,14 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "stranglehold-2",
     "title": "Stranglehold 2",
     "company": "Midway Games",
-    "releaseYear": "Unreleased",
+    "timeframe": "Unreleased",
     "platforms": ["PlayStation 3", "Xbox 360"],
     "description": "Sequel to the action game John Woo's Stranglehold, continuing the story of Inspector Tequila.",
     "contributions": "Contributed to early development and technical architecture design.",
@@ -25,13 +26,14 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "ultimate-alliance-2",
     "title": "Marvel: Ultimate Alliance 2",
     "company": "n-Space",
-    "releaseYear": 2009,
+    "timeframe": 2009,
     "platforms": ["Wii"],
     "description": "Action RPG featuring Marvel superheroes, based on the Civil War storyline.",
     "contributions": "Led development for the Wii version, implementing platform-specific features.",
@@ -39,13 +41,14 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "toystory-3",
     "title": "Toy Story 3",
     "company": "n-Space",
-    "releaseYear": 2010,
+    "timeframe": 2010,
     "platforms": ["Nintendo DS"],
     "description": "Video game adaptation of the Pixar film Toy Story 3.",
     "contributions": "Oversaw technical implementation for the Nintendo DS version.",
@@ -53,13 +56,14 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "bloodstone-007",
     "title": "James Bond 007: Blood Stone",
     "company": "n-Space",
-    "releaseYear": 2010,
+    "timeframe": 2010,
     "platforms": ["Nintendo DS"],
     "description": "Third-person shooter featuring James Bond in an original storyline.",
     "contributions": "Led technical development for the Nintendo DS version.",
@@ -67,13 +71,14 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "goldeneye-007",
     "title": "GoldenEye 007",
     "company": "n-Space",
-    "releaseYear": 2010,
+    "timeframe": 2010,
     "platforms": ["Nintendo DS"],
     "description": "Reimagining of the classic N64 game, updated with Daniel Craig as Bond.",
     "contributions": "Managed technical aspects and implementation for the Nintendo DS version.",
@@ -81,13 +86,14 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "inside-out",
     "title": "Inside Out: Thought Bubbles",
     "company": "Disney",
-    "releaseYear": 2015,
+    "timeframe": 2015,
     "platforms": ["iOS", "Android"],
     "description": "Mobile puzzle game based on the Pixar film Inside Out.",
     "contributions": "Led development and technical implementation.",
@@ -95,13 +101,14 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "wheres-my-mickey",
     "title": "Where's My Mickey?",
     "company": "Disney",
-    "releaseYear": 2013,
+    "timeframe": 2013,
     "platforms": ["iOS", "Android"],
     "description": "Physics-based puzzle game featuring Mickey Mouse.",
     "contributions": "Oversaw technical development and implementation of game mechanics.",
@@ -109,27 +116,29 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "dodopop",
     "title": "Dodopop",
     "company": "Disney",
-    "releaseYear": 2014,
+    "timeframe": 2014,
     "platforms": ["iOS", "Android"],
-    "description": "Colorful mobile puzzle game.",
+    "description": "A bubble-popping game set in a unique IP featuring a new character. This became the foundation for what would release a decade later as Nemo's Aqua Pop.",
     "contributions": "Led technical development and implementation.",
     "image": "/images/projects/dodopop.jpg",
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "checkout-challenge",
     "title": "Checkout Challenge",
     "company": "Disney",
-    "releaseYear": 2015,
+    "timeframe": 2015,
     "platforms": ["iOS", "Android"],
     "description": "Fast-paced mobile game simulating a supermarket checkout experience.",
     "contributions": "Managed technical aspects and implementation.",
@@ -137,82 +146,272 @@
     "featured": true,
     "type": "project",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
+  },
+  {
+    "id": "stack-rabbit",
+    "title": "Stack Rabbit",
+    "company": "Disney",
+    "timeframe": 2013,
+    "platforms": ["iOS", "Android"],
+    "description": "A puzzle game featuring a rabbit who stacks and matches vegetables while avoiding the farmer.",
+    "contributions": "Contributed to game development and implementation of core gameplay systems.",
+    "image": "/images/projects/stack-rabbit.jpg",
+    "featured": false,
+    "type": "project",
+    "website": null,
+    "github": null,
+    "gallery": []
+  },
+  {
+    "id": "lost-light",
+    "title": "Lost Light",
+    "company": "Disney",
+    "timeframe": 2013,
+    "platforms": ["iOS", "Android"],
+    "description": "A mobile puzzle adventure game with light-based mechanics.",
+    "contributions": "Worked on game development and technical implementation.",
+    "image": "/images/projects/lost-light.jpg",
+    "featured": false,
+    "type": "project",
+    "website": null,
+    "github": null,
+    "gallery": []
+  },
+  {
+    "id": "dont-break-the-bank",
+    "title": "Don't Break the Bank",
+    "company": "Disney",
+    "timeframe": 2013,
+    "platforms": ["iOS", "Android"],
+    "description": "A mobile game challenging players to manage resources without breaking the bank.",
+    "contributions": "Developed gameplay mechanics and technical systems.",
+    "image": "/images/projects/dont-break-the-bank.jpg",
+    "featured": false,
+    "type": "project",
+    "website": null,
+    "github": null,
+    "gallery": []
+  },
+  {
+    "id": "nemos-aqua-pop",
+    "title": "Nemo's Aqua Pop",
+    "company": "Disney/Pixar",
+    "timeframe": 2022,
+    "platforms": ["iOS", "Android"],
+    "description": "A bubble-popping game set in the Finding Nemo universe.",
+    "contributions": "Led development efforts and implemented core gameplay features.",
+    "image": "/images/projects/nemos-aqua-pop.jpg",
+    "featured": false,
+    "type": "project",
+    "website": null,
+    "github": null,
+    "gallery": []
+  },
+  {
+    "id": "launchpad-framework",
+    "title": "LaunchPad Framework",
+    "company": "Disney Interactive",
+    "timeframe": "2013-2015",
+    "platforms": ["iOS", "Android", "Web"],
+    "description": "A game development framework that allowed for rapid prototyping and development of mobile games. The framework was used to create several successful Disney mobile games.",
+    "contributions": "Architected and led development of a cross-platform game development framework that accelerated Disney's mobile game production pipeline.",
+    "image": "/images/projects/launchpad-framework/main.jpg",
+    "featured": true,
+    "type": "project",
+    "website": null,
+    "github": null,
+    "gallery": [
+      {
+        "image": "/images/projects/launchpad-framework/main.jpg",
+        "caption": "LaunchPad Framework - Cross-platform game development framework"
+      },
+      {
+        "image": "/images/projects/launchpad-framework/architecture.jpg",
+        "caption": "Framework Architecture - Modular design for rapid game development"
+      },
+      {
+        "image": "/images/projects/launchpad-framework/components.jpg",
+        "caption": "Component System - Plug-and-play game features"
+      }
+    ],
+    "details": {
+      "features": [
+        "Cross-platform compatibility (iOS, Android, Web)",
+        "Modular architecture for rapid prototyping",
+        "Integrated analytics and A/B testing",
+        "Automated build and deployment pipeline",
+        "Comprehensive asset management system",
+        "Configurable UI framework",
+        "Integrated IAP and monetization tools"
+      ],
+      "technologies": [
+        "Objective-C",
+        "Java",
+        "C#",
+        "Unity3d"
+      ]
+    }
+  },
+  {
+    "id": "etoll-clip",
+    "title": "eToll Clip",
+    "company": "Nobis Technologies",
+    "timeframe": "2004-2009",
+    "platforms": ["Hardware"],
+    "description": "A suction cup clip to attach the Florida Sunpass to the windshield, instead of velcro adhesive strips.",
+    "contributions": "Entrepreneurial project developing a hardware solution for electronic toll collection devices.",
+    "image": "/images/projects/etoll-clip.jpg",
+    "featured": false,
+    "type": "project",
+    "reason": "Several factors. 1. Low profit potential. 2. Lack of time to focus on the project. 3. Florida DoT introduced their own Suction Cup transponders.",
+    "website": null,
+    "github": null,
+    "gallery": []
+  },
+  {
+    "id": "oscommerce-verisign",
+    "title": "OsCommerce Verisign Plugin",
+    "company": "Nobis Technologies",
+    "timeframe": "2004-2009",
+    "platforms": ["Web"],
+    "description": "The plugin utilized Verisign (now owned by PayPal)'s payflow link system. A system that required the user to leave a customers website to go to one owned by Verisign and fill out their credit card information. A process that was less than optimal, and would on frequent occasion result in orders not being completed, as it was unclear to the user how to finalize the transaction. Using the plug-in I developed, it emulated the process of Verisign's more expensive premium service named Payflow Pro to the customer.",
+    "contributions": "Integrated the equivelence of the premium Verisign Payflow service, using the free Payflow Link API. This resulted in a much better customer experience for free, and increased conversion rates.",
+    "image": "/images/projects/oscommerce-verisign.jpg",
+    "featured": false,
+    "type": "project",
+    "reason": "Eventually the need was replaced byPayPal, and better online Credit Card Processing services like Stripe.",
+    "website": null,
+    "github": null,
+    "gallery": []
+  },
+  {
+    "id": "nobis-command-center",
+    "title": "Nobis Command Center",
+    "company": "Nobis Technologies",
+    "timeframe": "2004-2009",
+    "platforms": ["Desktop"],
+    "description": "Order processing and fulfillment application which allowed for 1 tap order fulfillment for existing customers. Issuing a bill of materials, and printing out all necessary postage, to be handed off to shipping department to fulfill orders. Integrated into OsCommerce for realtime notifications of purchasing.",
+    "contributions": "Designed and implemented an end-to-end order management system that streamlined business operations.",
+    "image": "/images/projects/nobis-command-center.jpg",
+    "featured": false,
+    "type": "project",
+    "reason": "We shut down Nobis Technologies in 2009, no longer needed.",
+    "website": null,
+    "github": null,
+    "gallery": [],
+    "details": {
+      "features": [
+        "Order Fulfilment",
+        "Order Refunding",
+        "Postage Printing and Payment",
+        "Inventory Management",
+        "Purchase Notification"
+      ],
+      "technologies": [
+        "Visual Basic",
+        "MySQL",
+        "OsCommerce"
+      ]
+    }
+  },
+  {
+    "id": "eo",
+    "title": "Eō",
+    "company": "Endless Train LLC",
+    "timeframe": "2004-2012",
+    "platforms": ["PC", "Treadmill", "Stationary Bike"],
+    "description": "A virtual telepresence and sightseeing videogame that rewarded players for virtually visiting and exploring geographic points of interest using a treadmill or stationary bike as the controller. The project aimed to combat obesity and inactivity by making exercise social, fun, educational, and a view-port to the outside world.",
+    "contributions": "Led development of this innovative fitness game concept that combined 3D scanning technology with exercise equipment to create immersive virtual travel experiences.",
+    "image": "/images/garden/eo/eo-logo.jpg",
+    "featured": false,
+    "type": "graveyard",
+    "reason": "Kickstarter campaign was unsuccessful and the technology required for high-quality 3D scanning of cities was prohibitively expensive at the time.",
+    "website": null,
+    "github": null,
+    "gallery": [
+      {
+        "image": "/images/garden/eo/eo-logo.jpg",
+        "caption": "Eō Logo - Virtual running around the globe"
+      },
+      {
+        "image": "/images/garden/eo/eo-treadmill.jpg",
+        "caption": "Treadmill Interface - Using existing exercise equipment as controllers"
+      },
+      {
+        "image": "/images/garden/eo/eo-environment.jpg",
+        "caption": "Virtual Environment - Exploring real-world locations"
+      }
+    ],
+    "details": {
+      "features": [
+        "Social fitness through virtual telepresence with friends",
+        "Exploration of 3D-scanned real-world locations",
+        "Educational content about visited destinations",
+        "Game modes including 'Run! Zombies!' for added excitement",
+        "Virtual trainer to guide users through proper exercise techniques",
+        "Achievement system with passport stamps for visited locations",
+        "Compatible with existing treadmills and stationary bikes"
+      ],
+      "technologies": [
+        "3D scanning technology",
+        "Virtual reality",
+        "Exercise equipment integration",
+        "Social networking",
+        "Geolocation data"
+      ],
+      "alternateNames": ["Walk Around the Globe", "WAG"]
+    }
   },
   {
     "id": "active1",
     "title": "AI-Powered Game Design Tool",
     "description": "Developing a tool that uses AI to assist game designers in creating balanced gameplay mechanics.",
     "status": "In Progress",
-    "startDate": "2025-01-15",
+    "timeframe": "2025-Present",
+    "platforms": ["Web", "Desktop"],
     "image": "/images/garden/ai-game-design.jpg",
     "type": "active",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "active2",
     "title": "Virtual Reality Education Platform",
     "description": "Creating an immersive VR platform for interactive educational experiences.",
     "status": "In Progress",
-    "startDate": "2024-11-10",
+    "timeframe": "2024-Present",
+    "platforms": ["VR", "Web"],
     "image": "/images/garden/vr-education.jpg",
     "type": "active",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "idea1",
     "title": "Blockchain Gaming Marketplace",
     "description": "A decentralized marketplace for game assets using blockchain technology.",
-    "createdDate": "2025-03-05",
+    "timeframe": "2025",
+    "platforms": ["Web", "Mobile"],
     "image": "/images/garden/blockchain-gaming.jpg",
     "type": "idea",
     "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   },
   {
     "id": "idea2",
     "title": "Augmented Reality Children's Books",
     "description": "Interactive children's books that come to life through AR technology.",
-    "createdDate": "2025-02-20",
+    "timeframe": "2025",
+    "platforms": ["iOS", "Android", "AR"],
     "image": "/images/garden/ar-books.jpg",
     "type": "idea",
     "website": null,
-    "github": null
-  },
-  {
-    "id": "idea3",
-    "title": "Sustainable Tech Initiative",
-    "description": "Developing guidelines and tools for more environmentally friendly technology development.",
-    "createdDate": "2025-01-30",
-    "image": "/images/garden/sustainable-tech.jpg",
-    "type": "idea",
-    "website": null,
-    "github": null
-  },
-  {
-    "id": "graveyard1",
-    "title": "Mobile Game Streaming Service",
-    "description": "A platform for streaming mobile games to low-end devices.",
-    "startDate": "2023-06-10",
-    "endDate": "2024-02-15",
-    "reason": "Market saturation and technical challenges",
-    "image": "/images/garden/mobile-streaming.jpg",
-    "type": "graveyard",
-    "website": null,
-    "github": null
-  },
-  {
-    "id": "graveyard2",
-    "title": "AI Writing Assistant for Game Narratives",
-    "description": "Tool to help game writers create branching narratives with AI assistance.",
-    "startDate": "2023-08-20",
-    "endDate": "2024-01-05",
-    "reason": "Pivoted to broader AI game design tool",
-    "image": "/images/garden/ai-writing.jpg",
-    "type": "graveyard",
-    "website": null,
-    "github": null
+    "github": null,
+    "gallery": []
   }
 ]

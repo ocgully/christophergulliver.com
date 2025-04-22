@@ -1,113 +1,63 @@
 <template>
-  <div class="social">
-    <page-header 
-      title="Social Feed" 
-      subtitle="A collection of my latest posts, updates, and activities from across the web."
-    />
-    
-    <div class="social-links">
-      <a href="https://linkedin.com/in/christophergulliver" target="_blank" rel="noopener noreferrer" class="social-link linkedin">
-        <i class="fab fa-linkedin"></i>
-        <span>LinkedIn</span>
-      </a>
-      <a href="https://github.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="social-link github">
-        <i class="fab fa-github"></i>
-        <span>GitHub</span>
-      </a>
-    </div>
+  <div class="social-page">
+    <PageHeader
+      title="Social Feed"
+      subtitle="Connect with me on social media"
+      description="Stay updated with my latest professional activities and insights"
+    >
+      <div class="social-buttons">
+        <a 
+          href="https://www.linkedin.com/in/christophergulliver/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="social-button linkedin"
+        >
+          <i class="fab fa-linkedin-in"></i>
+          <span>LinkedIn Profile</span>
+        </a>
+        <a 
+          href="https://github.com/christophergulliver" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="social-button github"
+        >
+          <i class="fab fa-github"></i>
+          <span>GitHub Profile</span>
+        </a>
+      </div>
+    </PageHeader>
     
     <div class="social-feed">
-      <!-- LinkedIn Post -->
-      <div class="social-card linkedin">
-        <div class="social-card-header">
-          <div class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </div>
-          <div class="social-meta">
-            <div class="social-platform">LinkedIn</div>
-            <div class="social-date">April 12, 2025</div>
-          </div>
-        </div>
-        <div class="social-content">
-          <p>Excited to announce that I'll be speaking at the Game Developers Conference next month on "The Future of Technical Leadership in Game Development." Looking forward to sharing insights and connecting with fellow industry professionals! #GDC2025 #GameDev</p>
-        </div>
-        <div class="social-stats">
-          <span><i class="fas fa-thumbs-up"></i> 128</span>
-          <span><i class="fas fa-comment"></i> 32</span>
-          <span><i class="fas fa-share"></i> 15</span>
-        </div>
-        <a href="#" class="social-link-out">View on LinkedIn</a>
+      <!-- Loading Spinner -->
+      <div v-if="isLoading" class="loading-container">
+        <div class="spinner"></div>
+        <p>Loading social feed...</p>
       </div>
       
-      <!-- GitHub Activity -->
-      <div class="social-card github">
-        <div class="social-card-header">
-          <div class="social-icon">
-            <i class="fab fa-github"></i>
-          </div>
-          <div class="social-meta">
-            <div class="social-platform">GitHub</div>
-            <div class="social-date">April 10, 2025</div>
-          </div>
-        </div>
-        <div class="social-content">
-          <p>Merged pull request: "Optimize rendering pipeline for mobile devices" in <a href="#">game-engine-toolkit</a></p>
-          <div class="github-stats">
-            <span>+2,145 lines</span>
-            <span>-1,352 lines</span>
-          </div>
-        </div>
-        <div class="social-stats">
-          <span><i class="fas fa-code-branch"></i> 5 branches</span>
-          <span><i class="fas fa-code-commit"></i> 12 commits</span>
-        </div>
-        <a href="#" class="social-link-out">View on GitHub</a>
-      </div>
-      
-      <!-- LinkedIn Post -->
-      <div class="social-card linkedin">
-        <div class="social-card-header">
-          <div class="social-icon">
-            <i class="fab fa-linkedin"></i>
-          </div>
-          <div class="social-meta">
-            <div class="social-platform">LinkedIn</div>
-            <div class="social-date">April 5, 2025</div>
-          </div>
-        </div>
-        <div class="social-content">
-          <p>Thrilled to share that our team's latest project has surpassed 1 million downloads! Proud of what we've accomplished and grateful for everyone who contributed to this success. #MilestoneAchieved #TeamSuccess</p>
-          <div class="social-image">
-            <img src="/images/social/project-celebration.jpg" alt="Team celebration">
-          </div>
-        </div>
-        <div class="social-stats">
-          <span><i class="fas fa-thumbs-up"></i> 342</span>
-          <span><i class="fas fa-comment"></i> 78</span>
-          <span><i class="fas fa-share"></i> 45</span>
-        </div>
-        <a href="#" class="social-link-out">View on LinkedIn</a>
-      </div>
-      
-      <!-- GitHub Activity -->
-      <div class="social-card github">
-        <div class="social-card-header">
-          <div class="social-icon">
-            <i class="fab fa-github"></i>
-          </div>
-          <div class="social-meta">
-            <div class="social-platform">GitHub</div>
-            <div class="social-date">April 3, 2025</div>
-          </div>
-        </div>
-        <div class="social-content">
-          <p>Released v2.0.0 of <a href="#">game-physics-library</a>: Added support for fluid dynamics and improved collision detection</p>
-        </div>
-        <div class="social-stats">
-          <span><i class="fas fa-star"></i> 127 stars</span>
-          <span><i class="fas fa-code-branch"></i> 43 forks</span>
-        </div>
-        <a href="#" class="social-link-out">View on GitHub</a>
+      <!-- Elfsight LinkedIn Feed Widget -->
+      <div 
+        class="elfsight-app-2483368e-d830-4121-9c2e-8c4afcc9ab95" 
+        data-elfsight-app-lazy
+        :class="{ 'hidden': isLoading }"
+      ></div>
+    </div>
+    
+    <!-- Social Media Icons Footer -->
+    <div class="social-icons-footer">
+      <h3>Connect With Me</h3>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/christophergulliver/" target="_blank" rel="noopener noreferrer" class="social-icon linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="social-icon github">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:contact@christophergulliver.com" class="social-icon email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://twitter.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="social-icon twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
       </div>
     </div>
   </div>
@@ -121,200 +71,175 @@ export default {
   components: {
     PageHeader
   },
+  data() {
+    return {
+      isLoading: true
+    };
+  },
   mounted() {
     document.title = 'Social Feed | Christopher Gulliver';
+    
+    // Load Elfsight script
+    const script = document.createElement('script');
+    script.src = 'https://static.elfsight.com/platform/platform.js';
+    script.async = true;
+    
+    // Listen for when Elfsight is loaded
+    window.addEventListener('onElfsightLoad', () => {
+      // Give a little extra time for the widget to render
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 1500);
+    });
+    
+    document.head.appendChild(script);
+    
+    // Fallback in case the event doesn't fire
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 8000);
   }
 }
 </script>
 
 <style scoped>
-.social {
+.social-page {
+  padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
 }
 
-.social-links {
+.social-buttons {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 3rem;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
-.social-link {
+.social-button {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  border-radius: 30px;
-  color: white;
-  text-decoration: none;
+  border-radius: 4px;
   font-weight: 600;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
-.social-link:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-.social-link i {
-  font-size: 1.25rem;
-}
-
-.social-link.linkedin {
+.social-button.linkedin {
   background-color: #0077b5;
+  color: white;
 }
 
-.social-link.github {
+.social-button.github {
   background-color: #333;
+  color: white;
+}
+
+.social-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
 }
 
 .social-feed {
-  column-count: 3;
-  column-gap: 2rem;
+  margin-top: 2rem;
+  position: relative;
+  min-height: 400px;
 }
 
-.social-card {
-  break-inside: avoid;
-  margin-bottom: 2rem;
-  background-color: var(--dark-surface);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: var(--card-shadow);
-  border-top: 4px solid;
-}
-
-.social-card.linkedin {
-  border-top-color: #0077b5;
-}
-
-.social-card.github {
-  border-top-color: #333;
-}
-
-.social-card-header {
+/* Loading Spinner */
+.loading-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  padding: 1rem;
-  border-bottom: 1px solid var(--dark-surface-2);
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border-top-color: #0077b5;
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-container p {
+  color: var(--text-secondary, #aaa);
+  font-size: 1rem;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.social-icons-footer {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-icons-footer h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: var(--text-primary, #f5f5f5);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .social-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   color: white;
-  margin-right: 1rem;
+  font-size: 1.25rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.social-card.linkedin .social-icon {
+.social-icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social-icon.linkedin {
   background-color: #0077b5;
 }
 
-.social-card.github .social-icon {
+.social-icon.github {
   background-color: #333;
 }
 
-.social-meta {
-  flex: 1;
+.social-icon.email {
+  background-color: #ea4335;
 }
 
-.social-platform {
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.social-date {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-}
-
-.social-content {
-  padding: 1.5rem;
-  color: var(--text-secondary);
-  line-height: 1.6;
-}
-
-.social-content a {
-  color: var(--primary);
-  text-decoration: none;
-}
-
-.social-content a:hover {
-  text-decoration: underline;
-}
-
-.social-image {
-  margin-top: 1rem;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.social-image img {
-  width: 100%;
-  height: auto;
-}
-
-.github-stats {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.5rem;
-  font-family: monospace;
-  font-size: 0.875rem;
-}
-
-.github-stats span:first-child {
-  color: #4caf50;
-}
-
-.github-stats span:last-child {
-  color: #f44336;
-}
-
-.social-stats {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.75rem 1.5rem;
-  background-color: var(--dark-surface-2);
-  color: var(--text-secondary);
-  font-size: 0.875rem;
-}
-
-.social-link-out {
-  display: block;
-  padding: 0.75rem;
-  text-align: center;
-  background-color: var(--dark-surface-2);
-  color: var(--primary);
-  text-decoration: none;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-
-.social-link-out:hover {
-  background-color: var(--dark-surface);
-  text-decoration: underline;
-}
-
-@media (max-width: 992px) {
-  .social-feed {
-    column-count: 2;
-  }
+.social-icon.twitter {
+  background-color: #1da1f2;
 }
 
 @media (max-width: 768px) {
-  .social-links {
+  .social-buttons {
     flex-direction: column;
-    align-items: center;
-    gap: 1rem;
   }
   
-  .social-feed {
-    column-count: 1;
+  .social-button {
+    width: 100%;
+    justify-content: center;
   }
 }
 </style>

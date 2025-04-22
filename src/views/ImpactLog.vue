@@ -8,38 +8,79 @@
     <div class="impact-grid">
       <div class="impact-card">
         <div class="impact-header">
-          <h3>Draftkings Sportsbook App</h3>
-          <span class="impact-date">2023</span>
+          <h3>DraftKings Sportsbook & Casino App</h3>
+          <span class="impact-date">2023-Present</span>
         </div>
         <div class="impact-content">
-          <p>Led engineering efforts that improved app performance by 35%, resulting in a 22% increase in user engagement and a 15% reduction in customer support tickets.</p>
+          <p>Led North American Native Mobile Apps teams for DraftKings' flagship Sportsbook & Casino app, successfully managing the critical replatforming from Xamarin to native iOS and Android while scaling the engineering organization.</p>
           <div class="impact-metrics">
             <div class="metric">
-              <span class="metric-value">35%</span>
-              <span class="metric-label">Performance Improvement</span>
+              <span class="metric-value">$25M+</span>
+              <span class="metric-label">Incremental Revenue</span>
             </div>
             <div class="metric">
-              <span class="metric-value">22%</span>
-              <span class="metric-label">Engagement Increase</span>
+              <span class="metric-value">2x</span>
+              <span class="metric-label">Team Growth</span>
             </div>
             <div class="metric">
-              <span class="metric-value">15%</span>
-              <span class="metric-label">Support Ticket Reduction</span>
+              <span class="metric-value">39+</span>
+              <span class="metric-label">Team Members Led</span>
             </div>
           </div>
           <div class="impact-details">
-            <button class="details-toggle" @click="toggleDetails('draftkings')">
-              <span v-if="!expandedCards.includes('draftkings')">Show Details</span>
+            <button class="details-toggle" @click="toggleDetails('draftkings-sportsbook-casino')">
+              <span v-if="!expandedCards.includes('draftkings-sportsbook-casino')">Show Details</span>
               <span v-else>Hide Details</span>
-              <i :class="expandedCards.includes('draftkings') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
+              <i :class="expandedCards.includes('draftkings-sportsbook-casino') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
             </button>
-            <div class="details-content" v-if="expandedCards.includes('draftkings')">
+            <div class="details-content" v-if="expandedCards.includes('draftkings-sportsbook-casino')">
+              <h4>Replatforming Success:</h4>
               <ul>
-                <li>Led a team of 12 engineers across 3 squads focusing on the core betting experience</li>
-                <li>Implemented a new caching strategy that reduced API calls by 40%</li>
-                <li>Introduced automated performance testing that caught regressions before release</li>
-                <li>Coordinated with product and design to prioritize performance-focused features</li>
-                <li>Mentored 4 junior engineers who were promoted to mid-level roles</li>
+                <li>Led teams in the successful replatforming from Xamarin to Native iOS and Android, delivering on time</li>
+                <li>Generated ~$25M incremental revenue through performance improvements and business continuity</li>
+                <li>Reduced iOS cold boot time by 4 seconds and Android cold boot time by 24 seconds</li>
+                <li>Decreased Android Application Not Responding (ANR) incidents by 10.75%</li>
+                <li>Mitigated business risk associated with Xamarin being sunset</li>
+              </ul>
+              
+              <h4>Team Leadership & Growth:</h4>
+              <ul>
+                <li>Led 4 North American Native Mobile Apps teams (5 direct reports, ~34 indirect reports)</li>
+                <li>Doubled North American team size through strategic hiring and onboarding</li>
+                <li>Sourced, interviewed, hired, and onboarded Engineering Managers and Individual Contributors</li>
+                <li>Created comprehensive onboarding materials including 30/60/90 day plans for multiple roles</li>
+                <li>Developed role expectations and service level agreements aligned with role rubrics</li>
+                <li>Mentored direct reports through weekly 1:1s, providing career growth advice and support</li>
+              </ul>
+              
+              <h4>Process & Quality Improvements:</h4>
+              <ul>
+                <li>Created Definition of Done and Definition of Ready to realign expectations</li>
+                <li>Led departmental goal setting to improve predictability, deliverability, and quality</li>
+                <li>Introduced sprint demos and standardized processes across teams</li>
+                <li>Reinforced agile and lean practices focusing on experimentation and continuous improvement</li>
+                <li>Led and participated in quarterly performance calibrations and introduced 9-box methodology</li>
+                <li>Standardized Gaming Native PTO process for improved team coordination</li>
+              </ul>
+              
+              <h4>Strategic Initiatives:</h4>
+              <ul>
+                <li>Led native implementation of backend-driven content management system (CMS)</li>
+                <li>Enabled product, design, and operations teams to make changes independent of engineering</li>
+                <li>Created cross-functional Sportsbook Domain Expertise documentation</li>
+                <li>Developed easy-access BI dashboards for improved visibility</li>
+                <li>Led handoff from engineering-led roadmap management to delivery organization</li>
+                <li>Co-wrote and presented Sportsbook Native Engineering departmental "All Hands"</li>
+              </ul>
+              
+              <h4>Organizational Impact:</h4>
+              <ul>
+                <li>Participated in year-end presentations and compensation delivery</li>
+                <li>Led promotion boards and performance calibration processes</li>
+                <li>Participated in team dynamics interviews to improve collaboration</li>
+                <li>Created software engineering general onboarding documentation</li>
+                <li>Fostered an environment focused on growth mindset and accountability</li>
+                <li>Planned team structure and rollout timing in coordination with business needs</li>
               </ul>
             </div>
           </div>
@@ -49,22 +90,22 @@
       <div class="impact-card">
         <div class="impact-header">
           <h3>Slickdeals Mobile App</h3>
-          <span class="impact-date">2019-2022</span>
+          <span class="impact-date">2019-2023</span>
         </div>
         <div class="impact-content">
-          <p>Directed the redesign and replatforming of the mobile app, resulting in a 40% increase in daily active users and a 28% improvement in user retention over 6 months.</p>
+          <p>Led the Deals and Community Value Stream Teams across multiple platforms, spearheading a successful replatforming initiative while implementing modern engineering practices that significantly improved development efficiency and release predictability.</p>
           <div class="impact-metrics">
             <div class="metric">
-              <span class="metric-value">40%</span>
-              <span class="metric-label">DAU Increase</span>
+              <span class="metric-value">2x</span>
+              <span class="metric-label">Developer Effectiveness</span>
             </div>
             <div class="metric">
-              <span class="metric-value">28%</span>
-              <span class="metric-label">Retention Improvement</span>
+              <span class="metric-value">10x</span>
+              <span class="metric-label">QA Cycle Reduction</span>
             </div>
             <div class="metric">
-              <span class="metric-value">4.7</span>
-              <span class="metric-label">App Store Rating</span>
+              <span class="metric-value">5</span>
+              <span class="metric-label">Teams Led</span>
             </div>
           </div>
           <div class="impact-details">
@@ -74,52 +115,62 @@
               <i :class="expandedCards.includes('slickdeals') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
             </button>
             <div class="details-content" v-if="expandedCards.includes('slickdeals')">
+              <h4>Technical Leadership:</h4>
               <ul>
-                <li>Directed the replatforming of the mobile app from Cordova to native iOS and Android</li>
-                <li>Implemented a new personalization engine that increased deal relevance by 35%</li>
-                <li>Reduced app startup time from 4.2 seconds to 1.8 seconds</li>
-                <li>Introduced a new notification system that increased re-engagement by 42%</li>
-                <li>Grew the mobile team from 6 to 15 engineers while maintaining high code quality</li>
+                <li>Led mobile app replatforming from native iOS/Android to Flutter, achieving 80% cross-platform code sharing</li>
+                <li>Introduced CI/CD and DevOps practices to the mobile team, implementing Jenkins with gitflow integration</li>
+                <li>Reduced QA release regression time from 5 days to half a day (10x improvement)</li>
+                <li>Improved release predictability by reducing 2-5 week cycles to consistent 2-week cycles</li>
+                <li>Coordinated integration of automated functional testing into the mobile app pipeline</li>
+                <li>Led platform migrations for AB Testing, Analytics, Ads, and performance monitoring tools</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="impact-card">
-        <div class="impact-header">
-          <h3>Disney Inside Out Game</h3>
-          <span class="impact-date">2015</span>
-        </div>
-        <div class="impact-content">
-          <p>Led architecture and development of a mobile game that reached 10 million downloads in the first month, with a 4.8-star average rating across app stores.</p>
-          <div class="impact-metrics">
-            <div class="metric">
-              <span class="metric-value">10M+</span>
-              <span class="metric-label">Downloads</span>
-            </div>
-            <div class="metric">
-              <span class="metric-value">4.8</span>
-              <span class="metric-label">Average Rating</span>
-            </div>
-            <div class="metric">
-              <span class="metric-value">32%</span>
-              <span class="metric-label">Day 30 Retention</span>
-            </div>
-          </div>
-          <div class="impact-details">
-            <button class="details-toggle" @click="toggleDetails('disney')">
-              <span v-if="!expandedCards.includes('disney')">Show Details</span>
-              <span v-else>Hide Details</span>
-              <i :class="expandedCards.includes('disney') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
-            </button>
-            <div class="details-content" v-if="expandedCards.includes('disney')">
+              
+              <h4>Team & Organization Leadership:</h4>
               <ul>
-                <li>Designed the core architecture for the Inside Out mobile game</li>
-                <li>Collaborated closely with Pixar to ensure character authenticity</li>
-                <li>Implemented memory optimization techniques that allowed the game to run on older devices</li>
-                <li>Created a custom emotion-based gameplay system that resonated with players</li>
-                <li>Developed a content pipeline that allowed rapid iteration and updates</li>
+                <li>Led 5 teams across the Deals and Community Value Streams (20+ engineers across backend, frontend, and mobile)</li>
+                <li>Fostered a developer community focused on growth mindset, accountability, and trust</li>
+                <li>Developed and implemented team onboarding processes to maximize culture alignment</li>
+                <li>Created team charter, career development documentation, and engineering leveling rubric adopted organization-wide</li>
+                <li>Mentored team members through bi-weekly 1:1s, providing career growth advice and support</li>
+                <li>Coordinated with leadership across multiple teams to prioritize high-value initiatives</li>
+              </ul>
+              
+              <h4>Process Improvement:</h4>
+              <ul>
+                <li>Implemented small-batch development methodology to optimize continuous integration</li>
+                <li>Created best practices for Agile development (grooming, planning, standups, retrospectives)</li>
+                <li>Developed spike documentation templates for scope of work, risk assessment, and technical evaluation</li>
+                <li>Modified JIRA workflow to focus on small batches for continuous integration</li>
+                <li>Established a triage system for handling legacy bugs with priority scoring</li>
+                <li>Applied Lean and Agile methodologies during roadmap planning and scrum management</li>
+              </ul>
+              
+              <h4>Recruitment & Team Building:</h4>
+              <ul>
+                <li>Acted as hiring manager for Deals and Community Value Streams</li>
+                <li>Performed candidate outreach and technical screenings for iOS, Android, and QA Automation roles</li>
+                <li>Redesigned assessment tests to better evaluate candidates in real-world scenarios</li>
+                <li>Created and implemented intern assessment process and onboarding program</li>
+                <li>Supplemented team with external partners (Very Good Ventures) for Flutter expertise</li>
+                <li>Guided teams to establish identity and culture through team naming and branding</li>
+              </ul>
+              
+              <h4>Business Impact:</h4>
+              <ul>
+                <li>Participated in 3rd party software contract negotiations, successfully finalizing stalled agreements</li>
+                <li>Participated in quarterly roadmap planning and weekly operations meetings with leadership</li>
+                <li>Identified and resolved customer service gaps for mobile app feedback</li>
+                <li>Implemented KPI dashboards for improved visibility into team performance</li>
+                <li>Managed vendor relationships and contracts, including joining the Embrace Customer Advisory Council</li>
+                <li>Coordinated with cross-functional stakeholders during the replatforming research and decision process</li>
+              </ul>
+              
+              <h4>Value Streams Led:</h4>
+              <ul>
+                <li>Brave Mountain - Web</li>
+                <li>Breakpoint - Mobile Apps</li>
+                <li>Brisket and Lager - Search & Tools</li>
+                <li>Wallaby - Community</li>
               </ul>
             </div>
           </div>
@@ -129,22 +180,22 @@
       <div class="impact-card">
         <div class="impact-header">
           <h3>Lonch, Inc.</h3>
-          <span class="impact-date">2018</span>
+          <span class="impact-date">2018-Present</span>
         </div>
         <div class="impact-content">
-          <p>Founded and led development of a mobile platform that streamlined restaurant ordering, reducing wait times by an average of 22 minutes and increasing table turnover by 15%.</p>
+          <p>Served as CTO and CPO for this startup, leading product vision, technical strategy, and team building while developing a comprehensive social collaboration platform with messaging and voting capabilities.</p>
           <div class="impact-metrics">
             <div class="metric">
-              <span class="metric-value">22min</span>
-              <span class="metric-label">Wait Time Reduction</span>
+              <span class="metric-value">2</span>
+              <span class="metric-label">Platforms (Mobile & Web)</span>
             </div>
             <div class="metric">
-              <span class="metric-value">15%</span>
-              <span class="metric-label">Table Turnover Increase</span>
+              <span class="metric-value">4</span>
+              <span class="metric-label">Core Features</span>
             </div>
             <div class="metric">
-              <span class="metric-value">12</span>
-              <span class="metric-label">Restaurant Partners</span>
+              <span class="metric-value">1</span>
+              <span class="metric-label">Unified Vision</span>
             </div>
           </div>
           <div class="impact-details">
@@ -154,12 +205,26 @@
               <i :class="expandedCards.includes('lonch') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
             </button>
             <div class="details-content" v-if="expandedCards.includes('lonch')">
+              <h4>Product & Technical Leadership:</h4>
               <ul>
-                <li>Developed a mobile ordering platform from concept to launch in 6 months</li>
-                <li>Secured $500K in seed funding based on prototype and business plan</li>
-                <li>Integrated with 3 different POS systems to streamline order processing</li>
-                <li>Implemented a real-time kitchen status system that improved order accuracy by 28%</li>
-                <li>Created a dynamic pricing model that increased average order value by 18%</li>
+                <li>Acted as CTO and CPO, guiding the creation of mobile and web applications</li>
+                <li>Built comprehensive platform featuring social media experience, collaborative workspaces, direct messaging, and voting</li>
+                <li>Developed strategic roadmaps and guided unified product vision</li>
+                <li>Created investor pitch decks and business development materials</li>
+              </ul>
+              
+              <h4>Team Building & Management:</h4>
+              <ul>
+                <li>Recruited and led a team of high-performing engineers and designers</li>
+                <li>Established development workflows and collaboration processes</li>
+                <li>Mentored team members to align with product vision and technical standards</li>
+              </ul>
+              
+              <h4>Brand & Marketing:</h4>
+              <ul>
+                <li>Coordinated design and branding of the Lonch platform</li>
+                <li>Participated in company PR campaigns with external agency support</li>
+                <li>Developed consistent brand identity across all touchpoints</li>
               </ul>
             </div>
           </div>
@@ -168,34 +233,167 @@
       
       <div class="impact-card">
         <div class="impact-header">
-          <h3>id Software Tools</h3>
-          <span class="impact-date">2010</span>
+          <h3>Disney's Launchpad Framework</h3>
+          <span class="impact-date">2013-2015</span>
         </div>
         <div class="impact-content">
-          <p>Developed internal tools that reduced level design iteration time by 40%, enabling faster development cycles and more polished game environments.</p>
+          <p>Architected and developed a comprehensive game development framework that reduced friction and increased startup velocity for projects across multiple development teams.</p>
           <div class="impact-metrics">
             <div class="metric">
-              <span class="metric-value">40%</span>
-              <span class="metric-label">Iteration Time Reduction</span>
+              <span class="metric-value">90+</span>
+              <span class="metric-label">Developers Impacted</span>
             </div>
             <div class="metric">
-              <span class="metric-value">3x</span>
-              <span class="metric-label">Designer Productivity</span>
+              <span class="metric-value">3</span>
+              <span class="metric-label">Development Teams</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value">Dozens</span>
+              <span class="metric-label">Projects & MVPs</span>
             </div>
           </div>
           <div class="impact-details">
-            <button class="details-toggle" @click="toggleDetails('id')">
-              <span v-if="!expandedCards.includes('id')">Show Details</span>
+            <button class="details-toggle" @click="toggleDetails('launchpad')">
+              <span v-if="!expandedCards.includes('launchpad')">Show Details</span>
               <span v-else>Hide Details</span>
-              <i :class="expandedCards.includes('id') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
+              <i :class="expandedCards.includes('launchpad') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
             </button>
-            <div class="details-content" v-if="expandedCards.includes('id')">
+            <div class="details-content" v-if="expandedCards.includes('launchpad')">
+              <h4>Integrated Systems:</h4>
               <ul>
-                <li>Developed a custom level editor extension that streamlined the design workflow</li>
-                <li>Created automated testing tools that identified performance bottlenecks</li>
-                <li>Implemented a visual scripting system that empowered designers to create complex interactions</li>
-                <li>Built asset optimization tools that reduced memory usage by 35%</li>
-                <li>Developed a version control integration that improved team collaboration</li>
+                <li>NUnitLite for robust unit testing</li>
+                <li>SQLCipher + SQLite for secure data storage</li>
+                <li>Google Play Game Services (IAP)</li>
+                <li>Amazon GameCircle (IAP)</li>
+                <li>Apple Game Center (IAP)</li>
+                <li>LitJson / JsonFX for data serialization</li>
+              </ul>
+              <h4>Developed Systems:</h4>
+              <ul>
+                <li>Finite State Machine (FSM) System</li>
+                <li>Init System with dependencies, InitManager, and Topological Sorting</li>
+                <li>Configurator for easy project setup</li>
+                <li>Event Dispatcher for decoupled communication</li>
+                <li>Comprehensive Logging System</li>
+                <li>SKU/Build Configuration Management</li>
+                <li>Age Gate for compliance with regulations</li>
+                <li>Native Plugin Harness for platform-specific features</li>
+                <li>Cross Platform Cryptography</li>
+                <li>Registry System to replace PlayerPrefs using SQLite/SQLCipher with encryption support</li>
+                <li>IAP Plugins for Google Play, Amazon, and Game Center</li>
+                <li>Achievements System</li>
+                <li>Build Systems for streamlined deployment</li>
+                <li>iOS Authenticator leveraging HockeyApp for Enterprise provisioning profiles (LASSO)</li>
+                <li>Action System using Command Design Pattern</li>
+                <li>Asynchronous Background Downloading system</li>
+              </ul>
+              <h4>Third-Party Integrations:</h4>
+              <ul>
+                <li>Crittercism for crash reporting</li>
+                <li>TestFlight for beta distribution</li>
+                <li>Walaber engine</li>
+                <li>Burstly / SkyRocket for monetization</li>
+                <li>MoPub for advertising</li>
+                <li>HockeyApp for distribution</li>
+                <li>XUPorter for Xcode project management</li>
+                <li>XCodeEditor-For-Unity</li>
+              </ul>
+              <h4>Tools & Technologies:</h4>
+              <ul>
+                <li>Jenkins for CI/CD</li>
+                <li>Bash Scripting for automation</li>
+                <li>CasperJS for testing</li>
+                <li>Mac OS, iOS, Xcode, Android Studio, Eclipse</li>
+                <li>Microsoft Office and Google Apps</li>
+                <li>Charles Proxy for network debugging</li>
+                <li>JDGui (Java Decompiler)</li>
+                <li>MonoDevelop and Unity3D</li>
+              </ul>
+              <h4>Activities:</h4>
+              <ul>
+                <li>Profiling using Xcode Instruments</li>
+                <li>DevCenter / Provisioning Profiles management</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="impact-card">
+        <div class="impact-header">
+          <h3>Tap Slots</h3>
+          <span class="impact-date">2015-2019</span>
+        </div>
+        <div class="impact-content">
+          <p>As Director of Engineering, led technical strategy and operations across multiple studios globally, transforming development processes and infrastructure while shipping 6 successful mobile casino games.</p>
+          <div class="impact-metrics">
+            <div class="metric">
+              <span class="metric-value">70%</span>
+              <span class="metric-label">Infrastructure Cost Reduction</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value">83%</span>
+              <span class="metric-label">Load Time Improvement</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value">75%</span>
+              <span class="metric-label">App Size Reduction</span>
+            </div>
+          </div>
+          <div class="impact-details">
+            <button class="details-toggle" @click="toggleDetails('tapslots')">
+              <span v-if="!expandedCards.includes('tapslots')">Show Details</span>
+              <span v-else>Hide Details</span>
+              <i :class="expandedCards.includes('tapslots') ? 'fas fa-chevron-up' : 'fas fa-chevron-down'"></i>
+            </button>
+            <div class="details-content" v-if="expandedCards.includes('tapslots')">
+              <h4>Technical Leadership:</h4>
+              <ul>
+                <li>Directed migration from Softlayer to AWS infrastructure, reducing costs by 70% in the first year</li>
+                <li>Optimized loading times on low-end Android devices from >60 seconds to <10 seconds</li>
+                <li>Reduced app size by 75% (from ~200MB to ~50MB) while adding new content through external asset bundles</li>
+                <li>Converted monolithic codebase into a package-based distributed architecture for multi-team development</li>
+                <li>Implemented comprehensive CI/CD pipeline with Jenkins for automated building and SKU management</li>
+                <li>Led Parse backend migration to a custom Data Injection Protocol</li>
+              </ul>
+              
+              <h4>Team Leadership:</h4>
+              <ul>
+                <li>Managed distributed engineering teams across Las Vegas, Perth (Australia), and Kiev (Ukraine)</li>
+                <li>Established engineering best practices and workflows across all studios</li>
+                <li>Developed technical specifications for both in-house and outsourced development</li>
+                <li>Created and implemented engineering candidate assessment process</li>
+                <li>Mentored software engineers in SOLID principles, design patterns, and problem-solving approaches</li>
+                <li>Coordinated with external QA team (Sculpin QA) to improve quality assurance processes</li>
+              </ul>
+              
+              <h4>Infrastructure Management:</h4>
+              <ul>
+                <li>Administered critical development tools: Jira, Confluence, Perforce, Git, Jenkins, Nexus</li>
+                <li>Managed cloud infrastructure on AWS EC2</li>
+                <li>Implemented and managed analytics platforms: Amplitude, Adjust, Tenjin</li>
+                <li>Established secure email infrastructure with DMARC, DKIM, and SPF protocols</li>
+                <li>Led GDPR compliance initiative across all products</li>
+              </ul>
+              
+              <h4>Product Development:</h4>
+              <ul>
+                <li>Lead Implementation of the Slot Machine Framework, which used a deterministic system for creating slot machines, and no-code implementation for skinning variants of math models.</li>
+                <li>Guided implementation of key game systems: cross-promotion, embedded asset bundles, advertising facade</li>
+                <li>Developed user profile system and debug menu architecture</li>
+                <li>Implemented puzzle mechanics and directed shader development</li>
+                <li>Created and managed product roadmaps for future features</li>
+                <li>Prioritized development tasks and bug fixes across multiple products</li>
+              </ul>
+              
+              <h4>Shipped Titles:</h4>
+              <ul>
+                <li>Slots of Fame (2015)</li>
+                <li>Wild Triple Slots (2016)</li>
+                <li>7 Kings Casino Slots (2015)</li>
+                <li>Vegas Cherry Slots (2019)</li>
+                <li>Slot Galaxy - Unity port from Adobe Flash (2019)</li>
+                <li>Classic Slot Galaxy - Unity port from Adobe Flash (2019)</li>
               </ul>
             </div>
           </div>

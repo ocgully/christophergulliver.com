@@ -81,15 +81,62 @@
       </div>
     </section>
 
+    <!-- Interests Section -->
+    <section class="section" id="interests">
+      <h2 class="section-title">Interests & Passions</h2>
+      <div class="interests-grid grid">
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title">Video Games</h3>
+            <p class="card-description">
+              Passionate about game engine development, tooling, and gameplay systems. Favorite games include Ultima Online, 
+              Star Craft, and Walkabout Minigolf. Prefer PC VR gaming, with Xbox and Switch as favorite consoles.
+            </p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title">Additive Manufacturing</h3>
+            <p class="card-description">
+              Early adopter of 3D printing technology, starting with the Makerbot Cupcake. First used rapid manufacturing 
+              for the eToll Clip project at Nobis Technologies. Currently using the ELEGOO Jupiter 6K Resin 3D printer.
+            </p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title">Blockchain Technology</h3>
+            <p class="card-description">
+              Interested in distributed deterministic ledgering. My first similar project was a deterministic video game server 
+              in 2008-2009s. Using blockchain for practical applications at <router-link to="/portfolio/lonch">Lonch, Inc.</router-link>, 
+              not memecoins.
+            </p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title">Virtual Reality</h3>
+            <p class="card-description">
+              Early adopter of VR technology, owning Oculus Rift, Rift S, Meta Quest 2, Pro, and 3. Briefly owned Valve Index. 
+              Ring in the new year in VR Chat annually. Current favorite headset: Meta Quest 3.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Featured Projects Section -->
     <section class="section" id="featured-projects">
-      <h2 class="section-title">Featured Projects</h2>
+      <h2 class="section-title">My Favorite Projects</h2>
       <div class="featured-projects-grid grid">
         <div v-for="project in featuredProjects" :key="project.id" class="card">
           <img :src="project.image" :alt="project.title" class="card-image">
           <div class="card-content">
             <h3 class="card-title">{{ project.title }}</h3>
-            <p class="card-subtitle">{{ project.company }} | {{ project.releaseYear }}</p>
+            <p class="card-subtitle">{{ project.company }} | {{ project.timeframe }}</p>
             <p class="card-description">{{ project.description }}</p>
             <router-link :to="`/portfolio/${project.id}`" class="btn btn-secondary">View Details</router-link>
           </div>
@@ -208,6 +255,47 @@ export default {
 .view-all-container {
   margin-top: 2rem;
   text-align: center;
+}
+
+.interests-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.interests-grid .card {
+  background-color: var(--dark-surface);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.interests-grid .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.interests-grid .card-title {
+  color: var(--primary-light);
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.interests-grid .card-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.interests-grid .card-description a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.interests-grid .card-description a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 992px) {

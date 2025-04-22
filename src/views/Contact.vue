@@ -20,12 +20,12 @@
         
         <div class="contact-card">
           <div class="contact-icon">
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-linkedin-in"></i>
           </div>
           <div class="contact-details">
             <h3>LinkedIn</h3>
             <p>Connect with me professionally and view my career history.</p>
-            <a href="https://linkedin.com/in/christophergulliver" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/christophergulliver</a>
+            <a href="https://www.linkedin.com/in/christophergulliver/" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/christophergulliver</a>
           </div>
         </div>
         
@@ -37,6 +37,17 @@
             <h3>Twitter</h3>
             <p>Follow me for thoughts on tech, gaming, and industry trends.</p>
             <a href="https://twitter.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="contact-link">@christophergulliver</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="contact-details">
+            <h3>GitHub</h3>
+            <p>Check out my code repositories and open source contributions.</p>
+            <a href="https://github.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/christophergulliver</a>
           </div>
         </div>
       </div>
