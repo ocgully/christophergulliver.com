@@ -16,7 +16,7 @@
           <span>LinkedIn Profile</span>
         </a>
         <a 
-          href="https://github.com/christophergulliver" 
+          href="https://github.com/ocgully" 
           target="_blank" 
           rel="noopener noreferrer"
           class="social-button github"
@@ -51,12 +51,6 @@
         </a>
         <a href="https://github.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="social-icon github">
           <i class="fab fa-github"></i>
-        </a>
-        <a href="mailto:contact@christophergulliver.com" class="social-icon email">
-          <i class="fas fa-envelope"></i>
-        </a>
-        <a href="https://twitter.com/christophergulliver" target="_blank" rel="noopener noreferrer" class="social-icon twitter">
-          <i class="fab fa-twitter"></i>
         </a>
       </div>
     </div>
@@ -222,14 +216,6 @@ export default {
 
 .social-icon.github {
   background-color: #333;
-}
-
-.social-icon.email {
-  background-color: #ea4335;
-}
-
-.social-icon.twitter {
-  background-color: #1da1f2;
 }
 
 @media (max-width: 768px) {

@@ -1,6 +1,114 @@
 {
   "books": [
     {
+      "id": "book101",
+      "title": "A Spell for Chameleon",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "The first book in the Xanth series introduces us to Bink, who appears to have no magical talent in a land where magic is everything. Banished from Xanth, Bink sets out on a quest to discover his true magical ability.",
+      "rating": 4,
+      "coverImage": "/images/books/spell-for-chameleon.jpg",
+      "amazonLink": "https://www.amazon.com/Spell-Chameleon-Xanth-Book-1/dp/0345347536?tag=christophergulliver-20",
+      "isbn": "0345347536"
+    },
+    {
+      "id": "book102",
+      "title": "The Source of Magic",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "In the second Xanth novel, Bink embarks on a dangerous quest to find the source of all magic in Xanth, a journey that will take him to the most perilous corners of the magical land.",
+      "rating": 4,
+      "coverImage": "/images/books/source-of-magic.jpg",
+      "amazonLink": "https://www.amazon.com/Source-Magic-Xanth-Book-2/dp/0345350588?tag=christophergulliver-20",
+      "isbn": "0345350588"
+    },
+    {
+      "id": "book103",
+      "title": "Castle Roogna",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "The third Xanth novel follows Dor, Bink's son, who is sent back in time to Castle Roogna to find a magical restorative for the zombie Jonathan. In the past, he encounters dangers and adventures in a very different Xanth.",
+      "rating": 4,
+      "coverImage": "/images/books/castle-roogna.jpg",
+      "amazonLink": "https://www.amazon.com/Castle-Roogna-Xanth-Book-3/dp/0345350588?tag=christophergulliver-20",
+      "isbn": "0345350588"
+    },
+    {
+      "id": "book104",
+      "title": "Centaur Aisle",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "In the fourth book of the Xanth series, King Dor and his friends must journey to Mundania to rescue the missing King Trent and Queen Iris. Their quest takes them through the dangerous centaur aisle, a magical passage between worlds.",
+      "rating": 4,
+      "coverImage": "/images/books/centaur-aisle.jpg",
+      "amazonLink": "https://www.amazon.com/Centaur-Aisle-Xanth-Book-4/dp/0345346882?tag=christophergulliver-20",
+      "isbn": "0345346882"
+    },
+    {
+      "id": "book105",
+      "title": "Ogre, Ogre",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "The fifth Xanth novel centers on Smash the half-ogre, who sets out on a quest to help a human woman named Tandy find safety. Along the way, he encounters various magical creatures and discovers his own unique talents.",
+      "rating": 4,
+      "coverImage": "/images/books/ogre-ogre.jpg",
+      "amazonLink": "https://www.amazon.com/Ogre-Xanth-Book-5/dp/0345354656?tag=christophergulliver-20",
+      "isbn": "0345354656"
+    },
+    {
+      "id": "book106",
+      "title": "Night Mare",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "In the sixth book of the Xanth series, the Night Mare Imbri, who delivers bad dreams, becomes involved in Xanth politics when the nextwave of invaders threatens the magical land. She must help find the next King of Xanth before it's too late.",
+      "rating": 4,
+      "coverImage": "/images/books/night-mare.jpg",
+      "amazonLink": "https://www.amazon.com/Night-Mare-Xanth-Book-6/dp/0345350588?tag=christophergulliver-20",
+      "isbn": "0345350588"
+    },
+    {
+      "id": "book107",
+      "title": "Dragon on a Pedestal",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "The seventh Xanth novel follows Ivy, the young daughter of King Dor, who gets lost in the jungle with only her special dragon companion. Meanwhile, the dreaded Gap Dragon has somehow been transformed into a tiny dragon and is also lost in the wilds of Xanth.",
+      "rating": 4,
+      "coverImage": "/images/books/dragon-on-pedestal.jpg",
+      "amazonLink": "https://www.amazon.com/Dragon-Pedestal-Xanth-Book-7/dp/0345349350?tag=christophergulliver-20",
+      "isbn": "0345349350"
+    },
+    {
+      "id": "book108",
+      "title": "Crewel Lye: A Caustic Yarn",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "The eighth book in the Xanth series tells the story of Jordan the Ghost, who recounts his tragic tale to Ivy. His story involves betrayal, a magic sword, and a caustic lie that led to his untimely demise centuries ago.",
+      "rating": 4,
+      "coverImage": "/images/books/crewel-lye.jpg",
+      "amazonLink": "https://www.amazon.com/Crewel-Lye-Caustic-Xanth-Book/dp/0345346882?tag=christophergulliver-20",
+      "isbn": "0345346882"
+    },
+    {
+      "id": "book109",
+      "title": "Golem in the Gears",
+      "author": "Piers Anthony",
+      "genres": ["Fantasy"],
+      "series": "The Magic of Xanth",
+      "description": "In the ninth Xanth novel, Grundy Golem, who was once a tiny creature conjured to entertain a child, sets out on a quest to win the heart of Rapunzel, a beautiful half-nymph, half-human girl with very long hair.",
+      "rating": 4,
+      "coverImage": "/images/books/golem-in-gears.jpg",
+      "amazonLink": "https://www.amazon.com/Golem-Gears-Xanth-Book-9/dp/0345352157?tag=christophergulliver-20",
+      "isbn": "0345352157"
+    },
+    {
       "id": "book1",
       "title": "Harry Potter and the Sorcerer's Stone",
       "author": "J.K. Rowling",
@@ -9,7 +117,8 @@
       "description": "Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard.",
       "rating": 5,
       "coverImage": "/images/books/harry-potter-1.jpg",
-      "amazonLink": "https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X?tag=christophergulliver-20",
+      "isbn": "059035342X"
     },
     {
       "id": "book2",
@@ -20,7 +129,8 @@
       "description": "The Dursleys were so mean and hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike.",
       "rating": 5,
       "coverImage": "/images/books/harry-potter-2.jpg",
-      "amazonLink": "https://www.amazon.com/Harry-Potter-Chamber-Secrets-Rowling/dp/0439064872?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Harry-Potter-Chamber-Secrets-Rowling/dp/0439064872?tag=christophergulliver-20",
+      "isbn": "0439064872"
     },
     {
       "id": "book62",
@@ -31,7 +141,8 @@
       "description": "Harry Potter, along with his best friends, Ron and Hermione, is about to start his third year at Hogwarts School of Witchcraft and Wizardry. Harry can't wait to get back to school after the summer holidays. But when Harry gets to Hogwarts, the atmosphere is tense.",
       "rating": 5,
       "coverImage": "/images/books/harry-potter-3.jpg",
-      "amazonLink": "https://www.amazon.com/Harry-Potter-Prisoner-Azkaban-Rowling/dp/0439136369?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Harry-Potter-Prisoner-Azkaban-Rowling/dp/0439136369?tag=christophergulliver-20",
+      "isbn": "0439136369"
     },
     {
       "id": "book63",
@@ -42,7 +153,8 @@
       "description": "Harry Potter is midway through his training as a wizard and his coming of age. Harry wants to get away from the pernicious Dursleys and go to the International Quidditch Cup. He wants to find out about the mysterious event that's supposed to take place at Hogwarts this year.",
       "rating": 5,
       "coverImage": "/images/books/harry-potter-4.jpg",
-      "amazonLink": "https://www.amazon.com/Harry-Potter-Goblet-Fire-Rowling/dp/0439139600?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Harry-Potter-Goblet-Fire-Rowling/dp/0439139600?tag=christophergulliver-20",
+      "isbn": "0439139600"
     },
     {
       "id": "book64",
@@ -53,7 +165,8 @@
       "description": "There is a door at the end of a silent corridor. And it's haunting Harry Potter's dreams. Why else would he be waking in the middle of the night, screaming in terror? It's not just the upcoming O.W.L. exams; a new teacher with a personality like poisoned honey; a venomous, disgruntled house-elf; or even the growing threat of He-Who-Must-Not-Be-Named.",
       "rating": 5,
       "coverImage": "/images/books/harry-potter-5.jpg",
-      "amazonLink": "https://www.amazon.com/Harry-Potter-Order-Phoenix-Rowling/dp/0439358078?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Harry-Potter-Order-Phoenix-Rowling/dp/0439358078?tag=christophergulliver-20",
+      "isbn": "0439358078"
     },
     {
       "id": "book65",
@@ -64,7 +177,8 @@
       "description": "The war against Voldemort is not going well; even Muggle governments are noticing. Ron scans the obituary pages of the Daily Prophet, looking for familiar names. Dumbledore is absent from Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses.",
       "rating": 5,
       "coverImage": "/images/books/harry-potter-6.jpg",
-      "amazonLink": "https://www.amazon.com/Harry-Potter-Half-Blood-Prince-Rowling/dp/0439785960?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Harry-Potter-Half-Blood-Prince-Rowling/dp/0789585960?tag=christophergulliver-20",
+      "isbn": "0439785960"
     },
     {
       "id": "book66",
@@ -75,7 +189,8 @@
       "description": "As he climbs into the sidecar of Hagrid's motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is broken, but he cannot keep hiding.",
       "rating": 5,
       "coverImage": "/images/books/harry-potter-7.jpg",
-      "amazonLink": "https://www.amazon.com/Harry-Potter-Deathly-Hallows-Rowling/dp/0545139708?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Harry-Potter-Deathly-Hallows-Rowling/dp/0545139708?tag=christophergulliver-20",
+      "isbn": "0545139708"
     },
     {
       "id": "book3",
@@ -86,7 +201,8 @@
       "description": "In a ruined and toxic future, a community exists in a giant silo underground, hundreds of stories deep. There, men and women live in a society full of regulations they believe are meant to protect them.",
       "rating": 4,
       "coverImage": "/images/books/wool.jpg",
-      "amazonLink": "https://www.amazon.com/Wool-Hugh-Howey/dp/1476733953?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Wool-Hugh-Howey/dp/1476733953?tag=christophergulliver-20",
+      "isbn": "1476733953"
     },
     {
       "id": "book4",
@@ -97,7 +213,8 @@
       "description": "In 2007, the Center for Automation in Nanobiotech outlined the hardware and software needed to create the first generation of nanobots. Shortly after, the commission warned against possible dangers of this technology.",
       "rating": 4,
       "coverImage": "/images/books/shift.jpg",
-      "amazonLink": "https://www.amazon.com/Shift-Hugh-Howey/dp/1480813052?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Shift-Hugh-Howey/dp/1480813052?tag=christophergulliver-20",
+      "isbn": "1480813052"
     },
     {
       "id": "book5",
@@ -108,7 +225,80 @@
       "description": "A game of survival in a dungeon crawl where the stakes are high and the penalties are permanent. Carl and his ex-girlfriend's cat Princess Donut must fight their way through a deadly dungeon that's as bizarre as it is lethal.",
       "rating": 4,
       "coverImage": "/images/books/dungeon-crawler-carl.jpg",
-      "amazonLink": "https://www.amazon.com/Dungeon-Crawler-Carl-GameLit-Adventure-ebook/dp/B08BKGYQXW?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Dungeon-Crawler-Carl-GameLit-Adventure-ebook/dp/B08BKGYQXW?tag=christophergulliver-20",
+      "isbn": "1950890112"
+    },
+    {
+      "id": "book110",
+      "title": "Carl's Doomsday Scenario",
+      "author": "Matt Dinniman",
+      "genres": ["Fantasy", "Science Fiction"],
+      "series": "Dungeon Crawler Carl",
+      "description": "The second book in the Dungeon Crawler Carl series follows Carl and Princess Donut as they continue their deadly game show journey deeper into the dungeon, facing increasingly bizarre challenges and deadly monsters.",
+      "rating": 4,
+      "coverImage": "/images/books/carls-doomsday-scenario.jpg",
+      "amazonLink": "https://www.amazon.com/Carls-Doomsday-Scenario-Dungeon-Crawler-ebook/dp/B08WZ92QBR?tag=christophergulliver-20",
+      "isbn": "1950890139"
+    },
+    {
+      "id": "book111",
+      "title": "The Dungeon Anarchist's Cookbook",
+      "author": "Matt Dinniman",
+      "genres": ["Fantasy", "Science Fiction"],
+      "series": "Dungeon Crawler Carl",
+      "description": "In the third installment, Carl and Princess Donut delve deeper into the dungeon, where they encounter new allies, deadlier enemies, and increasingly complex game mechanics as they fight for their survival and revenge.",
+      "rating": 4,
+      "coverImage": "/images/books/dungeon-anarchists-cookbook.jpg",
+      "amazonLink": "https://www.amazon.com/Dungeon-Anarchists-Cookbook-Crawler-Carl-ebook/dp/B094TL8K9P?tag=christophergulliver-20",
+      "isbn": "1950890155"
+    },
+    {
+      "id": "book112",
+      "title": "The Gate of the Feral Gods",
+      "author": "Matt Dinniman",
+      "genres": ["Fantasy", "Science Fiction"],
+      "series": "Dungeon Crawler Carl",
+      "description": "Book four finds Carl and Princess Donut facing their greatest challenges yet as they approach the Gate of the Feral Gods. The stakes are higher, the monsters are deadlier, and the game show producers are more sadistic than ever.",
+      "rating": 4,
+      "coverImage": "/images/books/gate-of-feral-gods.jpg",
+      "amazonLink": "https://www.amazon.com/Gate-Feral-Gods-Dungeon-Crawler-ebook/dp/B09431ZBHS?tag=christophergulliver-20",
+      "isbn": "1950890171"
+    },
+    {
+      "id": "book113",
+      "title": "The Butcher's Masquerade",
+      "author": "Matt Dinniman",
+      "genres": ["Fantasy", "Science Fiction"],
+      "series": "Dungeon Crawler Carl",
+      "description": "In the fifth book, Carl and Princess Donut find themselves at a deadly masquerade ball where the entertainment is murder and the guests are the most dangerous creatures in the dungeon. They must navigate political intrigue and deadly combat to survive.",
+      "rating": 4,
+      "coverImage": "/images/books/butchers-masquerade.jpg",
+      "amazonLink": "https://www.amazon.com/Butchers-Masquerade-Dungeon-Crawler-Carl-ebook/dp/B09BNSH4CP?tag=christophergulliver-20",
+      "isbn": "1950890198"
+    },
+    {
+      "id": "book114",
+      "title": "The Eye of the Bedlam Bride",
+      "author": "Matt Dinniman",
+      "genres": ["Fantasy", "Science Fiction"],
+      "series": "Dungeon Crawler Carl",
+      "description": "The sixth book in the series sees Carl and Princess Donut facing new challenges as they encounter the mysterious Bedlam Bride. They must overcome their greatest obstacles yet to continue their journey through the deadly dungeon.",
+      "rating": 4,
+      "coverImage": "/images/books/eye-of-bedlam-bride.jpg",
+      "amazonLink": "https://www.amazon.com/Eye-Bedlam-Bride-Dungeon-Crawler-ebook/dp/B09VKZJ2H2?tag=christophergulliver-20",
+      "isbn": "1957634022"
+    },
+    {
+      "id": "book115",
+      "title": "The Inevitable Ruin",
+      "author": "Matt Dinniman",
+      "genres": ["Fantasy", "Science Fiction"],
+      "series": "Dungeon Crawler Carl",
+      "description": "In the seventh installment, Carl and Princess Donut face The Inevitable Ruin, where they confront powerful enemies and discover shocking secrets about the dungeon's history that threaten not just their survival but their entire world.",
+      "rating": 4,
+      "coverImage": "/images/books/inevitable-ruin.jpg",
+      "amazonLink": "https://www.amazon.com/Inevitable-Ruin-Dungeon-Crawler-Carl-ebook/dp/B0BFNJ56W8?tag=christophergulliver-20",
+      "isbn": "1957634049"
     },
     {
       "id": "book6",
@@ -119,7 +309,8 @@
       "description": "The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again.",
       "rating": 5,
       "coverImage": "/images/books/eye-of-the-world.jpg",
-      "amazonLink": "https://www.amazon.com/Eye-World-Wheel-Time-Book/dp/1250251931?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Eye-World-Wheel-Time-Book/dp/1250251931?tag=christophergulliver-20",
+      "isbn": "1250251931"
     },
     {
       "id": "book67",
@@ -130,7 +321,8 @@
       "description": "The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow. For centuries, gleemen have told of The Great Hunt of the Horn. Now the Horn itself is found: the Horn of Valere long thought only legend, the Horn which will raise the dead heroes of the ages.",
       "rating": 5,
       "coverImage": "/images/books/great-hunt.jpg",
-      "amazonLink": "https://www.amazon.com/Great-Hunt-Wheel-Time-Book/dp/1250251990?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Great-Hunt-Wheel-Time-Book/dp/1250251990?tag=christophergulliver-20",
+      "isbn": "1250251990"
     },
     {
       "id": "book68",
@@ -141,7 +333,8 @@
       "description": "The Dragon Reborn—the leader long prophesied who will save the world, but in the saving destroy it; the savior who will run mad and kill all those dearest to him—is on the run from his destiny.",
       "rating": 5,
       "coverImage": "/images/books/dragon-reborn.jpg",
-      "amazonLink": "https://www.amazon.com/Dragon-Reborn-Wheel-Time-Book/dp/1250252059?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Dragon-Reborn-Wheel-Time-Book/dp/1250252059?tag=christophergulliver-20",
+      "isbn": "1250252059"
     },
     {
       "id": "book69",
@@ -152,7 +345,8 @@
       "description": "The seals of Shayol Ghul are weak now, and the Dark One reaches out. The Shadow is rising to cover humankind. In Tar Valon, Min sees portents of hideous doom. Will the White Tower itself be broken?",
       "rating": 5,
       "coverImage": "/images/books/shadow-rising.jpg",
-      "amazonLink": "https://www.amazon.com/Shadow-Rising-Wheel-Time-Book/dp/1250252113?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Shadow-Rising-Wheel-Time-Book/dp/1250252113?tag=christophergulliver-20",
+      "isbn": "1250252113"
     },
     {
       "id": "book70",
@@ -163,7 +357,8 @@
       "description": "The bonds and wards that hold the Great Lord of the Dark are slowly failing, but still his fragile prison holds. The Forsaken, immortal servants of the shadow, weave their snares and tighten their grip upon the realms of men, sure in the knowledge that their master will soon break free.",
       "rating": 5,
       "coverImage": "/images/books/fires-of-heaven.jpg",
-      "amazonLink": "https://www.amazon.com/Fires-Heaven-Wheel-Time-Book/dp/1250252172?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Fires-Heaven-Wheel-Time-Book/dp/1250252172?tag=christophergulliver-20",
+      "isbn": "1250252172"
     },
     {
       "id": "book7",
@@ -174,7 +369,8 @@
       "description": "Long ago, the Storyteller claimed, in this first book of THE BELGARIAD, the evil god Torak drove men and Gods to war. But Belgarath the Sorcerer led men to reclaim the Orb that protected men of the West.",
       "rating": 4,
       "coverImage": "/images/books/pawn-of-prophecy.jpg",
-      "amazonLink": "https://www.amazon.com/Pawn-Prophecy-Belgariad-Book-1/dp/0345335511?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Pawn-Prophecy-Belgariad-Book-1/dp/0345335511?tag=christophergulliver-20",
+      "isbn": "0345335511"
     },
     {
       "id": "book71",
@@ -185,7 +381,8 @@
       "description": "The master Sorcerer Belgarath and his daughter Polgara the arch-Sorceress were on the trail of the Orb, seeking to regain its saving power before the final disaster prophesized by the legends. And with them went Garion, a simple farm boy only months before, but now the focus of the struggle.",
       "rating": 4,
       "coverImage": "/images/books/queen-of-sorcery.jpg",
-      "amazonLink": "https://www.amazon.com/Queen-Sorcery-Belgariad-Book-2/dp/0345335651?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Queen-Sorcery-Belgariad-Book-2/dp/0345335651?tag=christophergulliver-20",
+      "isbn": "0345335651"
     },
     {
       "id": "book72",
@@ -196,7 +393,8 @@
       "description": "Ce'Nedra, Imperial Princess of Tolnedra, had joined a dangerous mission to recover the stolen Orb that supposedly protected the West from the evil God Torak. And somehow, she found herself feeling quite tender for Garion, the innocent farm boy, who would be forced into the strange tower in the center of all evil to retrieve the Orb by himself.",
       "rating": 4,
       "coverImage": "/images/books/magicians-gambit.jpg",
-      "amazonLink": "https://www.amazon.com/Magicians-Gambit-Belgariad-Book-3/dp/0345335457?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Magicians-Gambit-Belgariad-Book-3/dp/0345335457?tag=christophergulliver-20",
+      "isbn": "0345335457"
     },
     {
       "id": "book73",
@@ -207,7 +405,8 @@
       "description": "It had all begun with the theft of the Orb that had so long protected the West from the evil God Torak. Before that, Garion had been a simple farm boy. Afterward, he discovered that his aunt was really the Sorceress Polgara and his grandfather was Belgarath, the Eternal Man.",
       "rating": 4,
       "coverImage": "/images/books/castle-of-wizardry.jpg",
-      "amazonLink": "https://www.amazon.com/Castle-Wizardry-Belgariad-Book-4/dp/0345335708?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Castle-Wizardry-Belgariad-Book-4/dp/0345335708?tag=christophergulliver-20",
+      "isbn": "0345335708"
     },
     {
       "id": "book74",
@@ -218,7 +417,8 @@
       "description": "The quest was over. The Orb of Aldur was restored. And once again, with the crowning of Garion, there was a descendant of Riva Iron-grip to rule as Overlord of the West. But the Prophecy was unfulfilled. In the east, the evil God Torak was about to awaken and seek dominion.",
       "rating": 4,
       "coverImage": "/images/books/enchanters-end-game.jpg",
-      "amazonLink": "https://www.amazon.com/Enchanters-End-Game-Belgariad-Book/dp/0345338715?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Enchanters-End-Game-Belgariad-Book/dp/0345338715?tag=christophergulliver-20",
+      "isbn": "0345338715"
     },
     {
       "id": "book75",
@@ -284,7 +484,8 @@
       "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep.",
       "rating": 5,
       "coverImage": "/images/books/the-hobbit.jpg",
-      "amazonLink": "https://www.amazon.com/Hobbit-J-R-Tolkien/dp/054792822X?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Hobbit-J-R-Tolkien/dp/054792822X?tag=christophergulliver-20",
+      "isbn": "054792822X"
     },
     {
       "id": "book9",
@@ -295,7 +496,8 @@
       "description": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring.",
       "rating": 5,
       "coverImage": "/images/books/fellowship-of-the-ring.jpg",
-      "amazonLink": "https://www.amazon.com/Fellowship-Ring-Lord-Rings-Part/dp/0547928211?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Fellowship-Ring-Lord-Rings-Part/dp/0547928211?tag=christophergulliver-20",
+      "isbn": "0547928211"
     },
     {
       "id": "book80",
@@ -306,7 +508,8 @@
       "description": "The Fellowship is scattered. Some prepare for war against the Dark Lord. Some fight against the treachery of the corrupt wizard Saruman. Only Frodo and Sam are left to take the One Ring to be destroyed in the fires of Mount Doom.",
       "rating": 5,
       "coverImage": "/images/books/two-towers.jpg",
-      "amazonLink": "https://www.amazon.com/Two-Towers-Lord-Rings-Part/dp/0547928203?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Two-Towers-Lord-Rings-Part/dp/0547928203?tag=christophergulliver-20",
+      "isbn": "0547928203"
     },
     {
       "id": "book81",
@@ -537,7 +740,7 @@
       "description": "My name is Kvothe. I have stolen princesses back from sleeping barrow kings. I burned down the town of Trebon. I have spent the night with Felurian and left with both my sanity and my life. I was expelled from the University at a younger age than most people are allowed in. I tread paths by moonlight that others fear to speak of during day. I have talked to Gods, loved women, and written songs that make the minstrels weep.",
       "rating": 5,
       "coverImage": "/images/books/name-of-the-wind.jpg",
-      "amazonLink": "https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0756404746?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0345335511?tag=christophergulliver-20"
     },
     {
       "id": "book27",
@@ -952,7 +1155,7 @@
       "author": "Will Wight",
       "genres": ["Fantasy"],
       "series": "Cradle",
-      "description": "With his duel fast approaching, Lindon is locked away in prison. As a Blackflame, he is too dangerous to remain free. The Skysworn, protectors of the Empire, have imprisoned him to keep him under control until the day of his promised fight arrives.",
+      "description": "As the Uncrowned King tournament reaches its final rounds, tensions between the competing factions are higher than ever. The outcome may determine the power balance throughout the rest of the world.",
       "rating": 4,
       "coverImage": "/images/books/skysworn.jpg",
       "amazonLink": "https://www.amazon.com/Skysworn-Cradle-Book-Will-Wight-ebook/dp/B0762YQ2H8?tag=christophergulliver-20"
@@ -1032,7 +1235,7 @@
       "description": "The battle in the heavens has left a target on Lindon's back. His most reliable ally is gone, the Monarchs see him as a threat, and he has inherited one of the most valuable facilities in the world. At any moment, his enemies could band together to kill him.",
       "rating": 5,
       "coverImage": "/images/books/dreadgod.jpg",
-      "amazonLink": "https://www.amazon.com/Dreadgod-Cradle-Book-Will-Wight-ebook/dp/B0B3YBVPW2?tag=christophergulliver-20"
+      "amazonLink": "https://www.amazon.com/Dreadgod-Cradle-Book-Will-Wight-ebook/dp/B0BFNJ56W8?tag=christophergulliver-20"
     },
     {
       "id": "book95",
